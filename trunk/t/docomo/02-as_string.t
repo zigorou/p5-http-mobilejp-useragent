@@ -15,6 +15,6 @@ for my $model (keys %HTTP::MobileJp::UserAgent::DoCoMo::Data::MODELS) {
     for (my $i = 0; $i < scalar(@{$HTTP::MobileJp::UserAgent::DoCoMo::Data::MODELS{$model}->{ua}}); $i++) {
         my $ua = HTTP::MobileJp::UserAgent::DoCoMo->from_ua($m->{ua}->[$i]);
 
-        is($ua->as_string, $m->{ua}->[$i]);
+        is($ua->as_string, $m->{ua}->[$i], $m->{ua}->[$i]);
     }
 }

@@ -32,6 +32,8 @@ our $HTML_VERSION = [];
 our $PDA_REGEX = qr#DoCoMo/1\.0/([^/]+)(?:/c(\d+))?(?:/(TB|TC|TD|TJ))?(?:/W(\d{1,2})H(\d{1,2}))?(?:/ser([\w]{11}))?#;
 our $FOMA_REGEX = qr#DoCoMo/2\.0 ([^/]+)\((?:c(\d+))?(?:;(TB|TC|TD|TJ|SD|SJ))?(?:;W(\d{1,2})H(\d{1,2}))?(?:;ser([\w]{15}))?(?:;icc(\w{20}))?\)#;
 
+use Test::More;
+
 sub from_ua {
     my ($class, $ua_str) = @_;
 
@@ -111,11 +113,12 @@ sub _fmt_opts_30 {
 
 sub _fmt_opts_40 {
     my $self = shift;
-    my @stash = ();
-    push(@stash, sprintf('c%02.d', $self->cache));
-    push(@stash, $self->status) if ($self->status);
-    push(@stash, $self->serial) if ($self->serial);
-    $self->_fmt_by_type(\@stash);
+    $self->_fmt_opts_50;
+#     my @stash = ();
+#     push(@stash, sprintf('c%02.d', $self->cache));
+#     push(@stash, $self->status) if ($self->status);
+#     push(@stash, $self->serial) if ($self->serial);
+#     $self->_fmt_by_type(\@stash);
 }
 
 sub _fmt_opts_50 {

@@ -62,25 +62,30 @@ for my $verset (@$data) {
     my $version = $verset->{version};
     for my $m (@{$verset->{models}}) {
         $m->{version} = $version;
+        $models{$m->{model}} = $m;
+        $models_by_series{$m->{series}} ||= [];
+        push(@{$models_by_series{$m->{series}}}, $m);
+
         for my $ua_str (@{$m->{ua}}) {
             my $params = HTTP::MobileJp::UserAgent::DoCoMo->parse($ua_str);
             $m->{params} ||= [];
-            $m->{model} = $params->{model} if ($m->{model} ne $params->{model});
+
+            if ($m->{model} ne $params->{model} && !exists $models{$params->{model}}) {
+                $models{$params->{model}} = $m;
+            }
+
             $m->{width_format} = $params->{width_format} if ($params->{width_format});
             $m->{height_format} = $params->{height_format} if ($params->{height_format});
             delete $params->{$_} for (qw/model serial product/);
             push(@{$m->{params}}, $params);
         }
-        $models{$m->{model}} = $m;
-        $models_by_series{$m->{series}} ||= [];
-        push(@{$models_by_series{$m->{series}}}, $m);
     }
 }
 
 my $d = Data::Dumper->new([\%models, \%models_by_series], [qw/*MODELS *MODELS_BY_SERIES/]);
 
 read(*DATA, my $tmpl, -s *DATA);
-$tmpl =~ s|\[% data %\]|$d->Dump|se;
+$tmpl =~ s|\[% data %\]|$d->Deepcopy(1)->Dump|se;
 $tmpl =~ s|\[% version %\]|$VERSION|se;
 
 unless (-d "$FindBin::Bin/../lib/HTTP/MobileJp/UserAgent/DoCoMo/") {

@@ -22,6 +22,8 @@ for my $model (keys %HTTP::MobileJp::UserAgent::DoCoMo::Data::MODELS) {
             height => $ua->height,
             foma => $ua->foma,
             pdc => $ua->pdc,
+            width_format => $ua->width_format,
+            height_format => $ua->height_format,
         }, $m->{params}->[$i]);
     }
 }
