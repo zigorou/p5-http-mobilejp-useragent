@@ -1,0 +1,145 @@
+package HTTP::MobileJp::UserAgent::DoCoMo;
+
+use strict;
+use warnings;
+
+our $VERSION = '0.01';
+
+use base qw(Class::Accessor::Fast);
+
+__PACKAGE__->mk_accessors(qw/
+  model
+  cache
+  version
+  serial
+  status
+  width
+  height
+  series
+  foma
+  pdc
+/);
+
+our $HTML_VERSION = [];
+
+sub as_string {
+    my ($self, $opts) = @_;
+    my $ua_str = ($self->foma) ?
+        'DoCoMo/2.0 ' . $self->model : 'DoCoMo/1.0/' . $self->model;
+    $ua_str .= $self->_fmt_opts;
+    return $ua_str;
+}
+
+sub _fmt_opts {
+    my $self = shift;
+
+    my ($ver_suffix) = join('', ( $self->version =~ m{HTML(\d)\.(\d)} ) );
+
+    $ver_suffix = 50 if ($ver_suffix > 50);
+    no strict 'refs';
+    my $fmt_method = '_fmt_opts_' . $ver_suffix;
+    $self->$fmt_method();
+}
+
+sub _fmt_opts_10 {
+    return "";
+}
+
+sub _fmt_opts_20 {
+    my $self = shift;
+    return "" unless (defined $self->cache && $self->cache > 5);
+    return '/' . sprintf('c%02.2d', $self->cache);
+}
+
+sub _fmt_opts_30 {
+    my $self = shift;
+    my @stash = ();
+    push(@stash, sprintf('c%02.2d', 10)); ### fixed value
+    push(@stash, $self->serial) if ($self->serial);
+    $self->_fmt_by_type(\@stash);
+}
+
+sub _fmt_opts_40 {
+    my $self = shift;
+    my @stash = ();
+    push(@stash, sprintf('c%02.2d', $self->cache));
+    push(@stash, $self->status) if ($self->status);
+    push(@stash, $self->serial) if ($self->serial);
+    $self->_fmt_by_type(\@stash);
+}
+
+sub _fmt_opts_50 {
+    my $self = shift;
+    my @stash = ();
+    push(@stash, sprintf('c%02.2d', $self->cache));
+    push(@stash, $self->status) if ($self->status);
+    push(@stash, sprintf('W%02.2dH%02.2d', $self->width, $self->height)) if ($self->width && $self->height);
+    push(@stash, $self->serial) if ($self->serial);
+    $self->_fmt_by_type(\@stash);
+}
+
+sub _fmt_by_type {
+    my ($self, $stash) = @_;
+    return ($self->pdc) ?
+        '/' . ( (@$stash > 0) ? join('/', @$stash) : '' )
+            : '(' . join(';', @$stash) . ')';
+}
+
+1;
+
+__END__
+
+=head1 NAME
+
+HTTP::MobileJp::UserAgent::DoCoMo -
+
+=head1 SYNOPSIS
+
+  use HTTP::MobileJp::UserAgent::DoCoMo;
+
+=head1 DESCRIPTION
+
+HTTP::MobileJp::UserAgent is
+
+=head1 AUTHOR
+
+Toru Yamaguchi E<lt>zigorou@cpan.orgE<gt>
+
+=head1 SEE ALSO
+
+ * http://www.nttdocomo.co.jp/service/imode/make/content/html/useragent/
+ * http://www.nttdocomo.co.jp/service/imode/make/content/xhtml/useragent/index.html
+ * http://www.nttdocomo.co.jp/service/imode/make/content/spec/useragent/index.html
+
+=head1 LICENSE
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut
+
+__END__
+
+HTML1
+DoCoMo/1.0/機種名
+
+HTML2
+DoCoMo/1.0/機種名/キャッシュ
+
+HTML3
+PDC
+DoCoMo/1.0/機種名/キャッシュ/個体識別情報
+FOMA
+DoCoMo/2.0<SP>機種名(キャッシュ;個体識別情報)
+
+HTML4
+PDC
+DoCoMo/1.0/機種名/キャッシュ/状態コード/個体識別情報
+FOMA
+DoCoMo/2.0<SP>機種名(キャッシュ;状態コード;個体識別情報)
+
+HTML5
+PDC
+DoCoMo/1.0/機種名/キャッシュ/状態コード/ブラウザ表示可能バイト数/個体識別情報
+FOMA
+DoCoMo/2.0<SP>機種名(キャッシュ;状態コード;ブラウザ表示可能バイト数;個体識別情報)

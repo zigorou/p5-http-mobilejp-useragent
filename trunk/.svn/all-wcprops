@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/public/!svn/ver/452/perl/HTTP-MobileJp-UserAgent/trunk
+END
+docomo_ua.pl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/public/!svn/ver/455/perl/HTTP-MobileJp-UserAgent/trunk/docomo_ua.pl
+END
+MANIFEST
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/public/!svn/ver/452/perl/HTTP-MobileJp-UserAgent/trunk/MANIFEST
+END
+Makefile.PL
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/public/!svn/ver/452/perl/HTTP-MobileJp-UserAgent/trunk/Makefile.PL
+END
+Changes
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/public/!svn/ver/452/perl/HTTP-MobileJp-UserAgent/trunk/Changes
+END
+MANIFEST.SKIP
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/public/!svn/ver/452/perl/HTTP-MobileJp-UserAgent/trunk/MANIFEST.SKIP
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/public/!svn/ver/453/perl/HTTP-MobileJp-UserAgent/trunk/README
+END
+.shipit
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/public/!svn/ver/452/perl/HTTP-MobileJp-UserAgent/trunk/.shipit
+END

@@ -1,0 +1,34 @@
+This is Perl module HTTP::MobileJp::UserAgent.
+
+INSTALLATION
+
+HTTP::MobileJp::UserAgent installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
+
+    % cpan HTTP::MobileJp::UserAgent
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+DOCUMENTATION
+
+HTTP::MobileJp::UserAgent documentation is available as in POD. So you can do:
+
+    % perldoc HTTP::MobileJp::UserAgent
+
+to read the documentation online with your favorite pager.
+
+    http://www.nttdocomo.co.jp/service/imode/make/content/html/useragent/
+    http://www.nttdocomo.co.jp/service/imode/make/content/xhtml/useragent/index.html
+    http://www.nttdocomo.co.jp/service/imode/make/content/spec/useragent/
+    http://www.au.kddi.com/ezfactory/tec/spec/4_4.html
+    http://creation.mb.softbank.jp/terminal/index.html
+    http://ke-tai.org/moblist/
+
+Toru Yamaguchi

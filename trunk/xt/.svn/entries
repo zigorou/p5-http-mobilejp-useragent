@@ -1,0 +1,64 @@
+8
+
+dir
+452
+http://svn.art-code.org/public/perl/HTTP-MobileJp-UserAgent/trunk/xt
+http://svn.art-code.org/public
+
+
+
+2009-01-29T09:33:43.877675Z
+452
+zigorou
+
+
+svn:special svn:externals svn:needs-lock
+
+02_perlcritic.t
+file
+
+
+
+
+2009-01-29T09:47:30.000000Z
+38baea49427236abf2113941acfc5bb1
+2009-01-29T09:33:43.877675Z
+452
+zigorou
+
+01_podspell.t
+file
+
+
+
+
+2009-01-29T09:47:30.000000Z
+f5682d428da936960284d6e63e3dfcd6
+2009-01-29T09:33:43.877675Z
+452
+zigorou
+
+perlcriticrc
+file
+
+
+
+
+2009-01-29T09:47:30.000000Z
+e7fa2ee4896f6a6b8d071acbc3bd2b60
+2009-01-29T09:33:43.877675Z
+452
+zigorou
+
+03_pod.t
+file
+
+
+
+
+2009-01-29T09:47:30.000000Z
+a9a291c86684944d3a4400e376132d84
+2009-01-29T09:33:43.877675Z
+452
+zigorou
+

@@ -1,0 +1,2278 @@
+---
+- models:
+    - model: D501i
+      series: 501i
+      ua:
+        - DoCoMo/1.0/D501i
+    - model: F501i
+      series: 501i
+      ua:
+        - DoCoMo/1.0/F501i
+    - model: N501i
+      series: 501i
+      ua:
+        - DoCoMo/1.0/N501i
+    - model: P501i
+      series: 501i
+      ua:
+        - DoCoMo/1.0/P501i
+  version: HTML1.0
+- models:
+    - model: D502i
+      series: 502i
+      ua:
+        - DoCoMo/1.0/D502i
+        - DoCoMo/1.0/D502i/c10
+    - model: F502i
+      series: 502i
+      ua:
+        - DoCoMo/1.0/F502i
+        - DoCoMo/1.0/F502i/c10
+    - model: N502i
+      series: 502i
+      ua:
+        - DoCoMo/1.0/N502i
+        - DoCoMo/1.0/N502i/c08
+    - model: P502i
+      series: 502i
+      ua:
+        - DoCoMo/1.0/P502i
+        - DoCoMo/1.0/P502i/c10
+    - model: NM502i
+      series: 502i
+      ua:
+        - DoCoMo/1.0/NM502i
+        - DoCoMo/1.0/NM502i/c10
+    - model: SO502i
+      series: 502i
+      ua:
+        - DoCoMo/1.0/SO502i
+    - model: F502it
+      series: 502i
+      ua:
+        - DoCoMo/1.0/F502it
+        - DoCoMo/1.0/F502it/c10
+    - model: N502it
+      series: 502i
+      ua:
+        - DoCoMo/1.0/N502it
+        - DoCoMo/1.0/N502it/c10
+    - model: SO502iWM
+      series: 502i
+      ua:
+        - DoCoMo/1.0/SO502iWM/c10
+    - model: SH821i
+      series: 821i
+      ua:
+        - DoCoMo/1.0/SH821i
+        - DoCoMo/1.0/SH821i/c10
+    - model: N821i
+      series: 821i
+      ua:
+        - DoCoMo/1.0/N821i
+        - DoCoMo/1.0/N821i/c08
+    - model: P821i
+      series: 821i
+      ua:
+        - DoCoMo/1.0/P821i
+        - DoCoMo/1.0/P821i/c08
+    - model: D209i
+      series: 209i
+      ua:
+        - DoCoMo/1.0/D209i
+        - DoCoMo/1.0/D209i/c10
+    - model: ER209i
+      series: 209i
+      ua:
+        - DoCoMo/1.0/ER209i
+        - DoCoMo/1.0/ER209i/c15
+    - model: F209i
+      series: 209i
+      ua:
+        - DoCoMo/1.0/F209i
+        - DoCoMo/1.0/F209i/c10
+    - model: KO209i
+      series: 209i
+      ua:
+        - DoCoMo/1.0/KO209i
+    - model: N209i
+      series: 209i
+      ua:
+        - DoCoMo/1.0/N209i
+        - DoCoMo/1.0/N209i/c08
+    - model: P209i
+      series: 209i
+      ua:
+        - DoCoMo/1.0/P209i
+        - DoCoMo/1.0/P209i/c10
+    - model: P209iS
+      series: 209i
+      ua:
+        - DoCoMo/1.0/P209is
+        - DoCoMo/1.0/P209is/c10
+    - model: R209i
+      series: 209i
+      ua:
+        - DoCoMo/1.0/R209i
+    - model: P651ps
+      series: 651
+      ua:
+        - DoCoMo/1.0/P651ps
+        - DoCoMo/1.0/P651ps/c10
+    - model: R691i
+      series: 691i
+      ua:
+        - DoCoMo/1.0/R691i
+    - model: F210i
+      series: 210i
+      ua:
+        - DoCoMo/1.0/F210i/c10
+    - model: N210i
+      series: 210i
+      ua:
+        - DoCoMo/1.0/N210i
+        - DoCoMo/1.0/N210i/c10
+    - model: P210i
+      series: 210i
+      ua:
+        - DoCoMo/1.0/P210i
+        - DoCoMo/1.0/P210i/c10
+    - model: KO210i
+      series: 210i
+      ua:
+        - DoCoMo/1.0/KO210i
+        - DoCoMo/1.0/KO210i/c10
+    - model: F671i
+      series: 671i
+      ua:
+        - DoCoMo/1.0/F671i/c10
+  version: HTML2.0
+- models:
+    - model: D210i
+      series: 210i
+      ua:
+        - DoCoMo/1.0/D210i/c10
+    - model: SO210i
+      series: 210i
+      ua:
+        - DoCoMo/1.0/SO210i/c10
+    - model: F503i
+      series: 503i
+      ua:
+        - DoCoMo/1.0/F503i/c10
+    - model: F503iS
+      series: 503i
+      ua:
+        - DoCoMo/1.0/F503iS/c10
+    - model: P503i
+      series: 503i
+      ua:
+        - DoCoMo/1.0/P503i/c10
+    - model: P503iS
+      series: 503i
+      ua:
+        - DoCoMo/1.0/P503iS/c10
+    - model: N503i
+      series: 503i
+      ua:
+        - DoCoMo/1.0/N503i/c10
+    - model: N503iS
+      series: 503i
+      ua:
+        - DoCoMo/1.0/N503iS/c10
+    - model: SO503i
+      series: 503i
+      ua:
+        - DoCoMo/1.0/SO503i/c10
+    - model: SO503iS
+      series: 503i
+      ua:
+        - DoCoMo/1.0/SO503iS/c10
+    - model: D503i
+      series: 503i
+      ua:
+        - DoCoMo/1.0/D503i/c10
+    - model: D503iS
+      series: 503i
+      ua:
+        - DoCoMo/1.0/D503iS/c10
+    - model: F211i
+      series: 211i
+      ua:
+        - DoCoMo/1.0/F211i/c10
+    - model: D211i
+      series: 211i
+      ua:
+        - DoCoMo/1.0/D211i/c10
+    - model: N211i
+      series: 211i
+      ua:
+        - DoCoMo/1.0/N211i/c10
+    - model: N211iS
+      series: 211i
+      ua:
+        - DoCoMo/1.0/N211iS/c10
+    - model: P211i
+      series: 211i
+      ua:
+        - DoCoMo/1.0/P211i/c10
+    - model: P211iS
+      series: 211i
+      ua:
+        - DoCoMo/1.0/P211iS/c10
+    - model: SO211i
+      series: 211i
+      ua:
+        - DoCoMo/1.0/SO211i/c10
+    - model: R211i
+      series: 211i
+      ua:
+        - DoCoMo/1.0/R211i/c10
+    - model: SH251i
+      series: 251i
+      ua:
+        - DoCoMo/1.0/SH251i/c10
+    - model: SH251iS
+      series: 251i
+      ua:
+        - DoCoMo/1.0/SH251iS/c10
+    - model: R692i
+      series: 692i
+      ua:
+        - DoCoMo/1.0/R692i/c10
+  version: HTML3.0
+- models:
+    - model: N2001
+      series: FOMA 2001
+      ua:
+        - DoCoMo/2.0 N2001(c10)
+    - model: N2002
+      series: FOMA 2002
+      ua:
+        - DoCoMo/2.0 N2002(c100)
+    - model: P2002
+      series: FOMA 2002
+      ua:
+        - DoCoMo/2.0 P2002(c100)
+    - model: D2101V
+      series: FOMA 2101V
+      ua:
+        - DoCoMo/2.0 D2101V(c100)
+    - model: P2101V
+      series: FOMA 2101V
+      ua:
+        - DoCoMo/2.0 P2101V(c100)
+    - model: SH2101V
+      series: FOMA 2101V
+      ua:
+        - DoCoMo/2.0 MST_v_SH2101V(c100)
+    - model: T2101V
+      series: FOMA 2101V
+      ua:
+        - DoCoMo/2.0 T2101V(c100)
+  version: HTML3.0
+- models:
+    - model: D504i
+      series: 504i
+      ua:
+        - DoCoMo/1.0/D504i/c10
+        - DoCoMo/1.0/D504i/c30/TD
+        - DoCoMo/1.0/D504i/c10/TJ
+    - model: F504i
+      series: 504i
+      ua:
+        - DoCoMo/1.0/F504i/c10/TB
+        - DoCoMo/1.0/F504i/c30/TD
+        - DoCoMo/1.0/F504i/c10/TJ
+    - model: F504iS
+      series: 504i
+      ua:
+        - DoCoMo/1.0/F504iS/c10/TB
+        - DoCoMo/1.0/F504iS/c30/TD
+        - DoCoMo/1.0/F504iS/c10/TJ
+    - model: N504i
+      series: 504i
+      ua:
+        - DoCoMo/1.0/N504i/c10/TB
+        - DoCoMo/1.0/N504i/c30/TD
+        - DoCoMo/1.0/N504i/c10/TJ
+    - model: N504iS
+      series: 504i
+      ua:
+        - DoCoMo/1.0/N504iS/c10/TB
+        - DoCoMo/1.0/N504iS/c30/TD
+        - DoCoMo/1.0/N504iS/c10/TJ
+    - model: SO504i
+      series: 504i
+      ua:
+        - DoCoMo/1.0/SO504i/c10/TB
+        - DoCoMo/1.0/SO504i/c30/TD
+        - DoCoMo/1.0/SO504i/c10/TJ
+    - model: P504i
+      series: 504i
+      ua:
+        - DoCoMo/1.0/P504i/c10/TB
+        - DoCoMo/1.0/P504i/c30/TD
+        - DoCoMo/1.0/P504i/c10/TJ
+    - model: P504iS
+      series: 504i
+      ua:
+        - DoCoMo/1.0/P504iS/c10/TB
+        - DoCoMo/1.0/P504iS/c30/TD
+        - DoCoMo/1.0/P504iS/c10/TJ
+    - model: D251i
+      series: 251i
+      ua:
+        - DoCoMo/1.0/D251i/c10
+    - model: D251iS
+      series: 251i
+      ua:
+        - DoCoMo/1.0/D251iS/c10/TB
+    - model: F251i
+      series: 251i
+      ua:
+        - DoCoMo/1.0/F251i/c10/TB
+        - DoCoMo/1.0/F251i/c10
+    - model: N251i
+      series: 251i
+      ua:
+        - DoCoMo/1.0/N251i/c10/TB
+    - model: N251iS
+      series: 251i
+      ua:
+        - DoCoMo/1.0/N251iS/c10/TB
+    - model: P251iS
+      series: 251i
+      ua:
+        - DoCoMo/1.0/P251iS/c10/TB
+    - model: F671iS
+      series: 671i
+      ua:
+        - DoCoMo/1.0/F671iS/c10/TB
+    - model: F212i
+      series: 212i
+      ua:
+        - DoCoMo/1.0/F212i/c10/TB
+    - model: SO212i
+      series: 212i
+      ua:
+        - DoCoMo/1.0/SO212i/c10/TB
+    - model: F661i
+      series: 661i
+      ua:
+        - DoCoMo/1.0/F661i/c10/TB
+    - model: F672i
+      series: 672i
+      ua:
+        - DoCoMo/1.0/F672i/c10/TB
+    - model: SO213i
+      series: 213i
+      ua:
+        - DoCoMo/1.0/SO213i/c10/TB
+    - model: SO213iS
+      series: 213i
+      ua:
+        - DoCoMo/1.0/SO213iS/c10/TB
+    - model: SO213iWR
+      series: 213i
+      ua:
+        - DoCoMo/1.0/SO213iWR/c10/TB
+  version: HTML4.0
+- models:
+    - model: F2051
+      series: FOMA2051
+      ua:
+        - DoCoMo/2.0 F2051(c100;TB)
+        - DoCoMo/2.0 F2051(c100;TD)
+        - DoCoMo/2.0 F2051(c100;TD)
+        - DoCoMo/2.0 F2051(c100;TJ)
+    - model: N2051
+      series: FOMA2051
+      ua:
+        - DoCoMo/2.0 N2051(c100;TB)
+        - DoCoMo/2.0 N2051(c100;TD)
+        - DoCoMo/2.0 N2051(c100;TJ)
+    - model: P2102V
+      series: FOMA2102V
+      ua:
+        - DoCoMo/2.0 P2102V(c100;TB)
+        - DoCoMo/2.0 P2102V(c100;TD)
+        - DoCoMo/2.0 P2102V(c100;TJ)
+    - model: F2102V
+      series: FOMA2102V
+      ua:
+        - DoCoMo/2.0 F2102V(c100;TB)
+        - DoCoMo/2.0 F2102V(c100;TD)
+        - DoCoMo/2.0 F2102V(c100;TJ)
+    - model: N2102V
+      series: FOMA2102V
+      ua:
+        - DoCoMo/2.0 N2102V(c100;TB)
+        - DoCoMo/2.0 N2102V(c100;TD)
+        - DoCoMo/2.0 N2102V(c100;TJ)
+    - model: N2701
+      series: FOMA2701
+      ua:
+        - DoCoMo/2.0 N2701(c100;TB)
+        - DoCoMo/1.0/N2701/c10/TB
+    - model: NM850iG
+      series: 850i
+      ua:
+        - DoCoMo/2.0 NM850iG(c100;TB;W22H10)
+        - DoCoMo/2.0 NM850iG(c100;TD)
+        - DoCoMo/2.0 NM850iG(c100;TJ)
+    - model: NM705i
+      series: 705i
+      ua:
+        - DoCoMo/2.0 NM705i(c100;TB;W15H13)
+        - DoCoMo/2.0 NM705i(c100;TB;W38H18)
+        - DoCoMo/2.0 NM705i(c100;TD)
+        - DoCoMo/2.0 NM705i(c100;TJ)
+    - model: NM706i
+      series: 706i
+      ua:
+        - DoCoMo/2.0 NM706i(c100;TB;W15H13)
+        - DoCoMo/2.0 NM706i(c100;TB;W38H18)
+        - DoCoMo/2.0 NM706i(c100;TD)
+        - DoCoMo/2.0 NM706i(c100;TJ)
+  version: HTML4.0
+- models:
+    - model: D505i
+      series: 505i
+      ua:
+        - DoCoMo/1.0/D505i/c20/TB
+        - DoCoMo/1.0/D505i/c30/TD
+        - DoCoMo/1.0/D505i/c20/TJ
+    - model: SO505i
+      series: 505i
+      ua:
+        - DoCoMo/1.0/SO505i/c20/TB
+        - DoCoMo/1.0/SO505i/c20/TB
+        - DoCoMo/1.0/SO505i/c30/TD
+        - DoCoMo/1.0/SO505i/c20/TJ
+    - model: SH505i
+      series: 505i
+      ua:
+        - DoCoMo/1.0/SH505i/c20/TB
+        - DoCoMo/1.0/SH505i2/c20/TB
+        - DoCoMo/1.0/SH505i/c30/TD
+        - DoCoMo/1.0/SH505i2/c30/TD
+        - DoCoMo/1.0/SH505i/c20/TJ
+        - DoCoMo/1.0/SH505i2/c20/TJ
+    - model: N505i
+      series: 505i
+      ua:
+        - DoCoMo/1.0/N505i/c20/TB
+        - DoCoMo/1.0/N505i/c20/TB
+        - DoCoMo/1.0/N505i/c20/TB
+        - DoCoMo/1.0/N505i/c30/TD
+        - DoCoMo/1.0/N505i/c20/TJ
+    - model: F505i
+      series: 505i
+      ua:
+        - DoCoMo/1.0/F505i/c20/TB
+        - DoCoMo/1.0/F505i/c20/TB
+        - DoCoMo/1.0/F505i/c30/TD
+        - DoCoMo/1.0/F505i/c20/TJ
+    - model: P505i
+      series: 505i
+      ua:
+        - DoCoMo/1.0/P505i/c20/TB
+        - DoCoMo/1.0/P505i/c30/TD
+        - DoCoMo/1.0/P505i/c20/TJ
+    - model: D505iS
+      series: 505i
+      ua:
+        - DoCoMo/1.0/D505iS/c20/TB
+        - DoCoMo/1.0/D505iS/c30/TD
+        - DoCoMo/1.0/D505iS/c20/TJ
+    - model: P505iS
+      series: 505i
+      ua:
+        - DoCoMo/1.0/P505iS/c20/TB
+        - DoCoMo/1.0/P505iS/c30/TD
+        - DoCoMo/1.0/P505iS/c20/TJ
+    - model: N505iS
+      series: 505i
+      ua:
+        - DoCoMo/1.0/N505iS/c20/TB
+        - DoCoMo/1.0/N505iS/c20/TB
+        - DoCoMo/1.0/N505iS/c20/TB
+        - DoCoMo/1.0/N505iS/c30/TD
+        - DoCoMo/1.0/N505iS/c20/TJ
+    - model: SO505iS
+      series: 505i
+      ua:
+        - DoCoMo/1.0/SO505iS/c20/TB
+        - DoCoMo/1.0/SO505iS/c20/TB
+        - DoCoMo/1.0/SO505iS/c20/TB
+        - DoCoMo/1.0/SO505iS/c20/TB
+        - DoCoMo/1.0/SO505iS/c30/TD
+        - DoCoMo/1.0/SO505iS/c20/TJ
+    - model: SH505iS
+      series: 505i
+      ua:
+        - DoCoMo/1.0/SH505iS/c20/TB
+        - DoCoMo/1.0/SH505iS/c30/TD
+        - DoCoMo/1.0/SH505iS/c20/TJ
+    - model: F505iGPS
+      series: 505i
+      ua:
+        - DoCoMo/1.0/F505iGPS/c20/TB
+        - DoCoMo/1.0/F505iGPS/c20/TB
+        - DoCoMo/1.0/F505iGPS/c30/TD
+        - DoCoMo/1.0/F505iGPS/c20/TJ
+    - model: D252i
+      series: 252i
+      ua:
+        - DoCoMo/1.0/D252i/c10/TB
+    - model: SH252i
+      series: 252i
+      ua:
+        - DoCoMo/1.0/SH252i/c20/TB
+    - model: P252i
+      series: 252i
+      ua:
+        - DoCoMo/1.0/P252i/c10/TB
+    - model: N252i
+      series: 252i
+      ua:
+        - DoCoMo/1.0/N252i/c10/TB
+        - DoCoMo/1.0/N252i/c10/TB
+        - DoCoMo/1.0/N252i/c10/TB
+    - model: P252iS
+      series: 252i
+      ua:
+        - DoCoMo/1.0/P252iS/c10/TB
+    - model: D506i
+      series: 506i
+      ua:
+        - DoCoMo/1.0/D506i/c20/TB
+        - DoCoMo/1.0/D506i/c20/TB
+        - DoCoMo/1.0/D506i/c20/TB
+        - DoCoMo/1.0/D506i/c20/TB
+        - DoCoMo/1.0/D506i/c30/TD
+        - DoCoMo/1.0/D506i/c20/TJ
+    - model: F506i
+      series: 506i
+      ua:
+        - DoCoMo/1.0/F506i/c20/TB
+        - DoCoMo/1.0/F506i/c20/TB
+        - DoCoMo/1.0/F506i/c30/TD
+        - DoCoMo/1.0/F506i/c20/TJ
+    - model: N506i
+      series: 506i
+      ua:
+        - DoCoMo/1.0/N506i/c20/TB
+        - DoCoMo/1.0/N506i/c20/TB
+        - DoCoMo/1.0/N506i/c20/TB
+        - DoCoMo/1.0/N506i/c30/TD
+        - DoCoMo/1.0/N506i/c20/TJ
+    - model: P506iC
+      series: 506i
+      ua:
+        - DoCoMo/1.0/P506iC/c20/TB
+        - DoCoMo/1.0/P506iC/c20/TB
+        - DoCoMo/1.0/P506iC/c30/TD
+        - DoCoMo/1.0/P506iC/c20/TJ
+    - model: SH506iC
+      series: 506i
+      ua:
+        - DoCoMo/1.0/SH506iC/c20/TB
+        - DoCoMo/1.0/SH506iC/c20/TB
+        - DoCoMo/1.0/SH506iC/c20/TB
+        - DoCoMo/1.0/SH506iC/c30/TD
+        - DoCoMo/1.0/SH506iC/c20/TJ
+    - model: SO506iC
+      series: 506i
+      ua:
+        - DoCoMo/1.0/SO506iC/c20/TB
+        - DoCoMo/1.0/SO506iC/c20/TB
+        - DoCoMo/1.0/SO506iC/c20/TB
+        - DoCoMo/1.0/SO506iC/c20/TB
+        - DoCoMo/1.0/SO506iC/c30/TD
+        - DoCoMo/1.0/SO506iC/c20/TJ
+    - model: N506iS
+      series: 506i
+      ua:
+        - DoCoMo/1.0/N506iS/c20/TB
+        - DoCoMo/1.0/N506iS/c20/TB
+        - DoCoMo/1.0/N506iS/c20/TB
+        - DoCoMo/1.0/N506iS/c30/TD
+        - DoCoMo/1.0/N506iS/c20/TJ
+    - model: SO506i
+      series: 506i
+      ua:
+        - DoCoMo/1.0/SO506i/c20/TB
+        - DoCoMo/1.0/SO506i/c20/TB
+        - DoCoMo/1.0/SO506i/c20/TB
+        - DoCoMo/1.0/SO506i/c20/TB
+        - DoCoMo/1.0/SO506i/c30/TD
+        - DoCoMo/1.0/SO506i/c20/TJ
+    - model: SO506iS
+      series: 506i
+      ua:
+        - DoCoMo/1.0/SO506iS/c20/TB
+        - DoCoMo/1.0/SO506iS/c20/TB
+        - DoCoMo/1.0/SO506iS/c20/TB
+        - DoCoMo/1.0/SO506iS/c20/TB
+        - DoCoMo/1.0/SO506iS/c30/TD
+        - DoCoMo/1.0/SO506iS/c20/TJ
+    - model: N506iSII
+      series: 506i
+      ua:
+        - DoCoMo/1.0/N506iS2/c20/TB
+        - DoCoMo/1.0/N506iS2/c20/TB
+        - DoCoMo/1.0/N506iS2/c20/TB
+        - DoCoMo/1.0/N506iS2/c30/TD
+        - DoCoMo/1.0/N506iS2/c20/TJ
+    - model: P506iCII
+      series: 506i
+      ua:
+        - DoCoMo/1.0/P506iC/c20/TB
+        - DoCoMo/1.0/P506iC/c20/TB
+        - DoCoMo/1.0/P506iC/c30/TD
+        - DoCoMo/1.0/P506iC/c20/TJ
+    - model: D253i
+      series: 253i
+      ua:
+        - DoCoMo/1.0/D253i/c10/TB
+        - DoCoMo/1.0/D253i/c10/TB
+        - DoCoMo/1.0/D253i/c10/TB
+        - DoCoMo/1.0/D253i/c10/TB
+    - model: N253i
+      series: 253i
+      ua:
+        - DoCoMo/1.0/N253i/c10/TB
+        - DoCoMo/1.0/N253i/c10/TB
+        - DoCoMo/1.0/N253i/c10/TB
+    - model: P253i
+      series: 253i
+      ua:
+        - DoCoMo/1.0/P253i/c10/TB
+    - model: D253iWM
+      series: 253i
+      ua:
+        - DoCoMo/1.0/D253iWM/c10/TB
+        - DoCoMo/1.0/D253iWM/c10/TB
+        - DoCoMo/1.0/D253iWM/c10/TB
+    - model: 'P253iS '
+      series: 253i
+      ua:
+        - DoCoMo/1.0/P253iS/c10/TB
+    - model: 'P213i '
+      series: 213i
+      ua:
+        - DoCoMo/1.0/P213i/c10/TB
+  version: HTML5.0
+- models:
+    - model: F900i
+      series: 900i
+      ua:
+        - DoCoMo/2.0 F900i(c100;TB;W22H12)
+        - DoCoMo/2.0 F900i(c100;TB;W18H10)
+        - DoCoMo/2.0 F900i(c100;TB;W28H15)
+        - DoCoMo/2.0 F900i(c100;TD)
+        - DoCoMo/2.0 F900i(c100;TJ)
+    - model: N900i
+      series: 900i
+      ua:
+        - DoCoMo/2.0 N900i(c100;TB;W24H12)
+        - DoCoMo/2.0 N900i(c100;TB;W20H10)
+        - DoCoMo/2.0 N900i(c100;TB;W30H15)
+        - DoCoMo/2.0 N900i(c100;TD)
+        - DoCoMo/2.0 N900i(c100;TJ)
+    - model: P900i
+      series: 900i
+      ua:
+        - DoCoMo/2.0 P900i(c100;TB;W24H11)
+        - DoCoMo/2.0 P900i(c100;TB;W20H09)
+        - DoCoMo/2.0 P900i(c100;TB;W30H14)
+        - DoCoMo/2.0 P900i(c100;TD)
+        - DoCoMo/2.0 P900i(c100;TJ)
+    - model: SH900i
+      series: 900i
+      ua:
+        - DoCoMo/2.0 SH900i(c100;TB;W24H12)
+        - DoCoMo/2.0 SH900i(c100;TD)
+        - DoCoMo/2.0 SH900i(c100;TJ)
+    - model: F900iT
+      series: 900i
+      ua:
+        - DoCoMo/2.0 F900iT(c100;TB;W22H12)
+        - DoCoMo/2.0 F900iT(c100;TB;W18H10)
+        - DoCoMo/2.0 F900iT(c100;TB;W28H15)
+        - DoCoMo/2.0 F900iT(c100;TD)
+        - DoCoMo/2.0 F900iT(c100;TJ)
+    - model: P900iV
+      series: 900i
+      ua:
+        - DoCoMo/2.0 P900iV(c100;TB;W24H11)
+        - DoCoMo/2.0 P900iV(c100;TB;W20H09)
+        - DoCoMo/2.0 P900iV(c100;TB;W30H14)
+        - DoCoMo/2.0 P900iV(c100;TD)
+        - DoCoMo/2.0 P900iV(c100;TJ)
+    - model: N900iS
+      series: 900i
+      ua:
+        - DoCoMo/2.0 N900iS(c100;TB;W24H12)
+        - DoCoMo/2.0 N900iS(c100;TB;W20H10)
+        - DoCoMo/2.0 N900iS(c100;TB;W30H15)
+        - DoCoMo/2.0 N900iS(c100;TD)
+        - DoCoMo/2.0 N900iS(c100;TJ)
+    - model: D900i
+      series: 900i
+      ua:
+        - DoCoMo/2.0 D900i(c100;TB;W20H10)
+        - DoCoMo/2.0 D900i(c100;TD)
+        - DoCoMo/2.0 D900i(c100;TJ)
+    - model: F900iC
+      series: 900i
+      ua:
+        - DoCoMo/2.0 F900iC(c100;TB;W22H12)
+        - DoCoMo/2.0 F900iC(c100;TB;W18H10)
+        - DoCoMo/2.0 F900iC(c100;TB;W28H15)
+        - DoCoMo/2.0 F900iC(c100;TD)
+        - DoCoMo/2.0 F900iC(c100;TJ)
+    - model: N900iL
+      series: 900i
+      ua:
+        - DoCoMo/2.0 N900iL(c100;TB;W24H12)
+        - DoCoMo/2.0 N900iL(c100;TB;W20H10)
+        - DoCoMo/2.0 N900iL(c100;TB;W30H15)
+        - DoCoMo/2.0 N900iL(c100;TD)
+        - DoCoMo/2.0 N900iL(c100;TJ)
+    - model: N900iG
+      series: 900i
+      ua:
+        - DoCoMo/2.0 N900iG(c100;TB;W24H12)
+        - DoCoMo/2.0 N900iG(c100;TB;W20H10)
+        - DoCoMo/2.0 N900iG(c100;TB;W30H15)
+        - DoCoMo/2.0 N900iG(c100;TD)
+        - DoCoMo/2.0 N900iG(c100;TJ)
+    - model: F880iES
+      series: 880i
+      ua:
+        - DoCoMo/2.0 F880iES(c100;TB;W20H08)
+        - DoCoMo/2.0 F880iES(c100;TB;W16H08)
+    - model: SH901iC
+      series: 901i
+      ua:
+        - DoCoMo/2.0 SH901iC(c100;TB;W24H12)
+        - DoCoMo/2.0 SH901iC(c100;TB;W20H10)
+        - DoCoMo/2.0 SH901iC(c100;TB;W30H15)
+        - DoCoMo/2.0 SH901iC(c100;TD)
+        - DoCoMo/2.0 SH901iC(c100;TJ)
+    - model: F901iC
+      series: 901i
+      ua:
+        - DoCoMo/2.0 F901iC(c100;TB;W23H12)
+        - DoCoMo/2.0 F901iC(c100;TB;W19H10)
+        - DoCoMo/2.0 F901iC(c100;TB;W28H15)
+        - DoCoMo/2.0 F901iC(c100;TD)
+        - DoCoMo/2.0 F901iC(c100;TJ)
+    - model: N901iC
+      series: 901i
+      ua:
+        - DoCoMo/2.0 N901iC(c100;TB;W24H12)
+        - DoCoMo/2.0 N901iC(c100;TB;W20H10)
+        - DoCoMo/2.0 N901iC(c100;TB;W30H15)
+        - DoCoMo/2.0 N901iC(c100;TD)
+        - DoCoMo/2.0 N901iC(c100;TJ)
+    - model: D901i
+      series: 901i
+      ua:
+        - DoCoMo/2.0 D901i(c100;TB;W23H12)
+        - DoCoMo/2.0 D901i(c100;TB;W19H10)
+        - DoCoMo/2.0 D901i(c100;TB;W28H15)
+        - DoCoMo/2.0 D901i(c100;TD)
+        - DoCoMo/2.0 D901i(c100;TJ)
+    - model: P901i
+      series: 901i
+      ua:
+        - DoCoMo/2.0 P901i(c100;TB;W24H12)
+        - DoCoMo/2.0 P901i(c100;TB;W20H10)
+        - DoCoMo/2.0 P901i(c100;TB;W30H15)
+        - DoCoMo/2.0 P901i(c100;TD)
+        - DoCoMo/2.0 P901i(c100;TJ)
+    - model: SH901iS
+      series: 901i
+      ua:
+        - DoCoMo/2.0 SH901iS(c100;TB;W24H12)
+        - DoCoMo/2.0 SH901iS(c100;TB;W20H10)
+        - DoCoMo/2.0 SH901iS(c100;TB;W30H15)
+        - DoCoMo/2.0 SH901iS(c100;TD)
+        - DoCoMo/2.0 SH901iS(c100;TJ)
+    - model: F901iS
+      series: 901i
+      ua:
+        - DoCoMo/2.0 F901iS(c100;TB;W23H12)
+        - DoCoMo/2.0 F901iS(c100;TB;W19H10)
+        - DoCoMo/2.0 F901iS(c100;TB;W28H15)
+        - DoCoMo/2.0 F901iS(c100;TD)
+        - DoCoMo/2.0 F901iS(c100;TJ)
+    - model: D901iS
+      series: 901i
+      ua:
+        - DoCoMo/2.0 D901iS(c100;TB;W23H12)
+        - DoCoMo/2.0 D901iS(c100;TB;W19H10)
+        - DoCoMo/2.0 D901iS(c100;TD)
+        - DoCoMo/2.0 D901iS(c100;TJ)
+    - model: P901iS
+      series: 901i
+      ua:
+        - DoCoMo/2.0 P901iS(c100;TB;W24H12)
+        - DoCoMo/2.0 P901iS(c100;TB;W20H10)
+        - DoCoMo/2.0 P901iS(c100;TB;W30H15)
+        - DoCoMo/2.0 P901iS(c100;TD)
+        - DoCoMo/2.0 P901iS(c100;TJ)
+    - model: N901iS
+      series: 901i
+      ua:
+        - DoCoMo/2.0 N901iS(c100;TB;W24H12)
+        - DoCoMo/2.0 N901iS(c100;TB;W20H10)
+        - DoCoMo/2.0 N901iS(c100;TB;W30H15)
+        - DoCoMo/2.0 N901iS(c100;TD)
+        - DoCoMo/2.0 N901iS(c100;TJ)
+    - model: P901iTV
+      series: 901i
+      ua:
+        - DoCoMo/2.0 P901iTV(c100;TB;W24H12)
+        - DoCoMo/2.0 P901iTV(c100;TB;W20H10)
+        - DoCoMo/2.0 P901iTV(c100;TB;W30H15)
+        - DoCoMo/2.0 P901iTV(c100;TD)
+        - DoCoMo/2.0 P901iTV(c100;TJ)
+    - model: F700i
+      series: 700i
+      ua:
+        - DoCoMo/2.0 F700i(c100;TB;W23H12)
+        - DoCoMo/2.0 F700i(c100;TB;W19H10)
+        - DoCoMo/2.0 F700i(c100;TB;W28H15)
+        - DoCoMo/2.0 F700i(c100;TD)
+        - DoCoMo/2.0 F700i(c100;TJ)
+    - model: SH700i
+      series: 700i
+      ua:
+        - DoCoMo/2.0 SH700i(c100;TB;W24H12)
+        - DoCoMo/2.0 SH700i(c100;TD)
+        - DoCoMo/2.0 SH700i(c100;TJ)
+    - model: N700i
+      series: 700i
+      ua:
+        - DoCoMo/2.0 N700i(c100;TB;W24H12)
+        - DoCoMo/2.0 N700i(c100;TB;W20H10)
+        - DoCoMo/2.0 N700i(c100;TB;W30H15)
+        - DoCoMo/2.0 N700i(c100;TD)
+        - DoCoMo/2.0 N700i(c100;TJ)
+    - model: P700i
+      series: 700i
+      ua:
+        - DoCoMo/2.0 P700i(c100;TB;W24H12)
+        - DoCoMo/2.0 P700i(c100;TB;W20H10)
+        - DoCoMo/2.0 P700i(c100;TB;W30H15)
+        - DoCoMo/2.0 P700i(c100;TD)
+        - DoCoMo/2.0 P700i(c100;TJ)
+    - model: F700iS
+      series: 700i
+      ua:
+        - DoCoMo/2.0 F700iS(c100;TB;W23H12)
+        - DoCoMo/2.0 F700iS(c100;TB;W19H10)
+        - DoCoMo/2.0 F700iS(c100;TB;W28H15)
+        - DoCoMo/2.0 F700iS(c100;TD)
+        - DoCoMo/2.0 F700iS(c100;TJ)
+    - model: SH700iS
+      series: 700i
+      ua:
+        - DoCoMo/2.0 SH700iS(c100;TB;W24H12)
+        - DoCoMo/2.0 SH700iS(c100;TD)
+        - DoCoMo/2.0 SH700iS(c100;TJ)
+    - model: SA700iS
+      series: 700i
+      ua:
+        - DoCoMo/2.0 SA700iS(c100;TB;W24H12)
+        - DoCoMo/2.0 SA700iS(c100;TB;W20H10)
+        - DoCoMo/2.0 SA700iS(c100;TB;W30H15)
+        - DoCoMo/2.0 SA700iS(c100;TD)
+        - DoCoMo/2.0 SA700iS(c100;TJ)
+    - model: SH851i
+      series: 851i
+      ua:
+        - DoCoMo/2.0 SH851i(c100;TB;W24H12)
+        - DoCoMo/2.0 SH851i(c100;TB;W20H10)
+        - DoCoMo/2.0 SH851i(c100;TB;W30H15)
+    - model: P851i
+      series: 851i
+      ua:
+        - DoCoMo/2.0 P851i(c100;TB;W24H12)
+        - DoCoMo/2.0 P851i(c100;TB;W20H10)
+        - DoCoMo/2.0 P851i(c100;TB;W30H15)
+        - DoCoMo/2.0 P851i(c100;TD)
+        - DoCoMo/2.0 P851i(c100;TJ)
+    - model: F881iES
+      series: 881i
+      ua:
+        - DoCoMo/2.0 F881iES(c100;TB;W20H08)
+        - DoCoMo/2.0 F881iES(c100;TB;W16H08)
+    - model: D701i
+      series: 701i
+      ua:
+        - DoCoMo/2.0 D701i(c100;TB;W23H12)
+        - DoCoMo/2.0 D701i(c100;TB;W19H10)
+        - DoCoMo/2.0 D701i(c100;TB;W28H15)
+        - DoCoMo/2.0 D701i(c100;TD)
+        - DoCoMo/2.0 D701i(c100;TJ)
+    - model: N701i
+      series: 701i
+      ua:
+        - DoCoMo/2.0 N701i(c100;TB;W24H12)
+        - DoCoMo/2.0 N701i(c100;TB;W20H10)
+        - DoCoMo/2.0 N701i(c100;TB;W30H15)
+        - DoCoMo/2.0 N701i(c100;TD)
+        - DoCoMo/2.0 N701i(c100;TJ)
+    - model: P701iD
+      series: 701i
+      ua:
+        - DoCoMo/2.0 P701iD(c100;TB;W24H12)
+        - DoCoMo/2.0 P701iD(c100;TB;W20H10)
+        - DoCoMo/2.0 P701iD(c100;TB;W30H15)
+        - DoCoMo/2.0 P701iD(c100;TD)
+        - DoCoMo/2.0 P701iD(c100;TJ)
+    - model: D701iWM
+      series: 701i
+      ua:
+        - DoCoMo/2.0 D701iWM(c100;TB;W23H12)
+        - DoCoMo/2.0 D701iWM(c100;TB;W19H10)
+        - DoCoMo/2.0 D701iWM(c100;TB;W28H15)
+        - DoCoMo/2.0 D701iWM(c100;TD)
+        - DoCoMo/2.0 D701iWM(c100;TJ)
+    - model: N701iECO
+      series: 701i
+      ua:
+        - DoCoMo/2.0 N701iECO(c100;TB;W24H12)
+        - DoCoMo/2.0 N701iECO(c100;TB;W20H10)
+        - DoCoMo/2.0 N701iECO(c100;TB;W30H15)
+        - DoCoMo/2.0 N701iECO(c100;TD)
+        - DoCoMo/2.0 N701iECO(c100;TJ)
+    - model: SA800i
+      series: 800i
+      ua:
+        - DoCoMo/2.0 SA800i(c100;TB;W24H12)
+        - DoCoMo/2.0 SA800i(c100;TB;W20H10)
+        - DoCoMo/2.0 SA800i(c100;TB;W30H15)
+        - DoCoMo/2.0 SA800i(c100;TD)
+        - DoCoMo/2.0 SA800i(c100;TJ)
+    - model: L600i
+      series: 600i
+      ua:
+        - DoCoMo/2.0 L600i(c100;TB;W21H11)
+        - DoCoMo/2.0 L600i(c100;TB;W24H13)
+        - DoCoMo/2.0 L600i(c100;TD)
+        - DoCoMo/2.0 L600i(c100;TJ)
+    - model: N600i
+      series: 600i
+      ua:
+        - DoCoMo/2.0 N600i(c100;TB;W21H11)
+        - DoCoMo/2.0 N600i(c100;TB;W28H15)
+        - DoCoMo/2.0 N600i(c100;TD)
+        - DoCoMo/2.0 N600i(c100;TJ)
+    - model: L601i
+      series: 601i
+      ua:
+        - DoCoMo/2.0 L601i(c100;TB;W21H11)
+        - DoCoMo/2.0 L601i(c100;TB;W18H10)
+        - DoCoMo/2.0 L601i(c100;TB;W24H13)
+        - DoCoMo/2.0 L601i(c100;TD)
+        - DoCoMo/2.0 L601i(c100;TJ)
+    - model: M702iS
+      series: 702i
+      ua:
+        - DoCoMo/2.0 M702iS(c100;TB;W24H13)
+        - DoCoMo/2.0 M702iS(c100;TB;W20H11)
+        - DoCoMo/2.0 M702iS(c100;TB;W30H16)
+        - DoCoMo/2.0 M702iS(c100;TD)
+        - DoCoMo/2.0 M702iS(c100;TJ)
+    - model: M702iG
+      series: 702i
+      ua:
+        - DoCoMo/2.0 M702iG(c100;TB;W24H13)
+        - DoCoMo/2.0 M702iG(c100;TB;W20H11)
+        - DoCoMo/2.0 M702iG(c100;TB;W30H16)
+        - DoCoMo/2.0 M702iG(c100;TD)
+        - DoCoMo/2.0 M702iG(c100;TJ)
+    - model: L602i
+      series: 602i
+      ua:
+        - DoCoMo/2.0 L602i(c100;TB;W21H11)
+        - DoCoMo/2.0 L602i(c100;TB;W18H10)
+        - DoCoMo/2.0 L602i(c100;TB;W24H13)
+        - DoCoMo/2.0 L602i(c100;TD)
+        - DoCoMo/2.0 L602i(c100;TJ)
+  version: HTML5.0
+- models:
+    - model: F902i
+      series: 902i
+      ua:
+        - DoCoMo/2.0 F902i(c100;TB;W23H12)
+        - DoCoMo/2.0 F902i(c100;TB;W19H10)
+        - DoCoMo/2.0 F902i(c100;TB;W28H15)
+        - DoCoMo/2.0 F902i(c100;TB;W24H12)
+        - DoCoMo/2.0 F902i(c100;TD)
+        - DoCoMo/2.0 F902i(c100;TJ)
+    - model: D902i
+      series: 902i
+      ua:
+        - DoCoMo/2.0 D902i(c100;TB;W23H16)
+        - DoCoMo/2.0 D902i(c100;TB;W19H13)
+        - DoCoMo/2.0 D902i(c100;TB;W28H20)
+        - DoCoMo/2.0 D902i(c100;TB;W24H16)
+        - DoCoMo/2.0 D902i(c100;TD)
+        - DoCoMo/2.0 D902i(c100;TJ)
+    - model: N902i
+      series: 902i
+      ua:
+        - DoCoMo/2.0 N902i(c100;TB;W24H12)
+        - DoCoMo/2.0 N902i(c100;TB;W20H10)
+        - DoCoMo/2.0 N902i(c100;TB;W30H15)
+        - DoCoMo/2.0 N902i(c100;TD)
+        - DoCoMo/2.0 N902i(c100;TJ)
+    - model: P902i
+      series: 902i
+      ua:
+        - DoCoMo/2.0 P902i(c100;TB;W24H12)
+        - DoCoMo/2.0 P902i(c100;TB;W20H10)
+        - DoCoMo/2.0 P902i(c100;TB;W30H15)
+        - DoCoMo/2.0 P902i(c100;TB;W24H10)
+        - DoCoMo/2.0 P902i(c100;TD)
+        - DoCoMo/2.0 P902i(c100;TJ)
+    - model: SH902i
+      series: 902i
+      ua:
+        - DoCoMo/2.0 SH902i(c100;TB;W24H12)
+        - DoCoMo/2.0 SH902i(c100;TB;W20H10)
+        - DoCoMo/2.0 SH902i(c100;TB;W30H15)
+        - DoCoMo/2.0 SH902i(c100;TD)
+        - DoCoMo/2.0 SH902i(c100;TJ)
+    - model: SO902i
+      series: 902i
+      ua:
+        - DoCoMo/2.0 SO902i(c100;TB;W24H12)
+        - DoCoMo/2.0 SO902i(c100;TB;W20H10)
+        - DoCoMo/2.0 SO902i(c100;TB;W30H16)
+        - DoCoMo/2.0 SO902i(c100;TD)
+        - DoCoMo/2.0 SO902i(c100;TJ)
+    - model: SH902iS
+      series: 902i
+      ua:
+        - DoCoMo/2.0 SH902iS(c100;TB;W24H12)
+        - DoCoMo/2.0 SH902iS(c100;TB;W20H10)
+        - DoCoMo/2.0 SH902iS(c100;TB;W30H15)
+        - DoCoMo/2.0 SH902iS(c100;TD)
+        - DoCoMo/2.0 SH902iS(c100;TJ)
+    - model: P902iS
+      series: 902i
+      ua:
+        - DoCoMo/2.0 P902iS(c100;TB;W24H12)
+        - DoCoMo/2.0 P902iS(c100;TB;W20H10)
+        - DoCoMo/2.0 P902iS(c100;TB;W30H15)
+        - DoCoMo/2.0 P902iS(c100;TB;W24H10)
+        - DoCoMo/2.0 P902iS(c100;TD)
+        - DoCoMo/2.0 P902iS(c100;TJ)
+    - model: N902iS
+      series: 902i
+      ua:
+        - DoCoMo/2.0 N902iS(c100;TB;W24H12)
+        - DoCoMo/2.0 N902iS(c100;TB;W20H10)
+        - DoCoMo/2.0 N902iS(c100;TB;W30H15)
+        - DoCoMo/2.0 N902iS(c100;TD)
+        - DoCoMo/2.0 N902iS(c100;TJ)
+    - model: D902iS
+      series: 902i
+      ua:
+        - DoCoMo/2.0 D902iS(c100;TB;W23H16)
+        - DoCoMo/2.0 D902iS(c100;TB;W19H13)
+        - DoCoMo/2.0 D902iS(c100;TB;W28H20)
+        - DoCoMo/2.0 D902iS(c100;TB;W24H16)
+        - DoCoMo/2.0 D902iS(c100;TD)
+        - DoCoMo/2.0 D902iS(c100;TJ)
+    - model: F902iS
+      series: 902i
+      ua:
+        - DoCoMo/2.0 F902iS(c100;TB;W23H12)
+        - DoCoMo/2.0 F902iS(c100;TB;W19H10)
+        - DoCoMo/2.0 F902iS(c100;TB;W28H15)
+        - DoCoMo/2.0 F902iS(c100;TB;W24H12)
+        - DoCoMo/2.0 F902iS(c100;TD)
+        - DoCoMo/2.0 F902iS(c100;TJ)
+    - model: SO902iWP+
+      series: 902i
+      ua: []
+    - model: SH902iSL
+      series: 902i
+      ua:
+        - DoCoMo/2.0 SH902iSL(c100;TB;W24H12)
+        - DoCoMo/2.0 SH902iSL(c100;TB;W20H10)
+        - DoCoMo/2.0 SH902iSL(c100;TB;W30H15)
+        - DoCoMo/2.0 SH902iSL(c100;TD)
+        - DoCoMo/2.0 SH902iSL(c100;TJ)
+    - model: N902iX
+      series: 902i
+      ua:
+        - DoCoMo/2.0 N902iX(c100;TB;W24H12)
+        - DoCoMo/2.0 N902iX(c100;TB;W20H10)
+        - DoCoMo/2.0 N902iX(c100;TB;W30H15)
+        - DoCoMo/2.0 N902iX(c100;TD)
+        - DoCoMo/2.0 N902iX(c100;TJ)
+    - model: N902iL
+      series: 902i
+      ua:
+        - DoCoMo/2.0 N902iL(c100;TB;W24H12)
+        - DoCoMo/2.0 N902iL(c100;TB;W20H10)
+        - DoCoMo/2.0 N902iL(c100;TB;W30H15)
+        - DoCoMo/2.0 N902iL(c100;TD)
+        - DoCoMo/2.0 N902iL(c100;TJ)
+    - model: P702i
+      series: 702i
+      ua:
+        - DoCoMo/2.0 P702i(c100;TB;W24H12)
+        - DoCoMo/2.0 P702i(c100;TB;W20H10)
+        - DoCoMo/2.0 P702i(c100;TB;W30H15)
+        - DoCoMo/2.0 P702i(c100;TD)
+        - DoCoMo/2.0 P702i(c100;TJ)
+    - model: N702iD
+      series: 702i
+      ua:
+        - DoCoMo/2.0 N702iD(c100;TB;W24H12)
+        - DoCoMo/2.0 N702iD(c100;TB;W20H10)
+        - DoCoMo/2.0 N702iD(c100;TB;W30H15)
+        - DoCoMo/2.0 N702iD(c100;TD)
+        - DoCoMo/2.0 N702iD(c100;TJ)
+    - model: F702iD
+      series: 702i
+      ua:
+        - DoCoMo/2.0 F702iD(c100;TB;W23H12)
+        - DoCoMo/2.0 F702iD(c100;TB;W19H10)
+        - DoCoMo/2.0 F702iD(c100;TB;W28H15)
+        - DoCoMo/2.0 F702iD(c100;TB;W24H12)
+        - DoCoMo/2.0 F702iD(c100;TD)
+        - DoCoMo/2.0 F702iD(c100;TJ)
+    - model: SH702iD
+      series: 702i
+      ua:
+        - DoCoMo/2.0 SH702iD(c100;TB;W24H12)
+        - DoCoMo/2.0 SH702iD(c100;TB;W20H10)
+        - DoCoMo/2.0 SH702iD(c100;TB;W30H15)
+        - DoCoMo/2.0 SH702iD(c100;TD)
+        - DoCoMo/2.0 SH702iD(c100;TJ)
+    - model: D702i
+      series: 702i
+      ua:
+        - DoCoMo/2.0 D702i(c100;TB;W23H12)
+        - DoCoMo/2.0 D702i(c100;TB;W19H10)
+        - DoCoMo/2.0 D702i(c100;TB;W28H15)
+        - DoCoMo/2.0 D702i(c100;TD)
+        - DoCoMo/2.0 D702i(c100;TJ)
+    - model: SO702i
+      series: 702i
+      ua:
+        - DoCoMo/2.0 SO702i(c100;TB;W24H12)
+        - DoCoMo/2.0 SO702i(c100;TB;W20H10)
+        - DoCoMo/2.0 SO702i(c100;TB;W30H16)
+        - DoCoMo/2.0 SO702i(c100;TD)
+        - DoCoMo/2.0 SO702i(c100;TJ)
+    - model: D702iBCL
+      series: 702i
+      ua:
+        - DoCoMo/2.0 D702iBCL(c100;TB;W23H12)
+        - DoCoMo/2.0 D702iBCL(c100;TB;W19H10)
+        - DoCoMo/2.0 D702iBCL(c100;TB;W28H15)
+        - DoCoMo/2.0 D702iBCL(c100;TD)
+        - DoCoMo/2.0 D702iBCL(c100;TJ)
+    - model: SA702i
+      series: 702i
+      ua:
+        - DoCoMo/2.0 SA702i(c100;TB;W24H12)
+        - DoCoMo/2.0 SA702i(c100;TB;W20H10)
+        - DoCoMo/2.0 SA702i(c100;TB;W30H15)
+        - DoCoMo/2.0 SA702i(c100;TD)
+        - DoCoMo/2.0 SA702i(c100;TJ)
+    - model: SH702iS
+      series: 702i
+      ua:
+        - DoCoMo/2.0 SH702iS(c100;TB;W24H12)
+        - DoCoMo/2.0 SH702iS(c100;TB;W20H10)
+        - DoCoMo/2.0 SH702iS(c100;TB;W30H15)
+        - DoCoMo/2.0 SH702iS(c100;TD)
+        - DoCoMo/2.0 SH702iS(c100;TJ)
+    - model: N702iS
+      series: 702i
+      ua:
+        - DoCoMo/2.0 N702iS(c100;TB;W24H12)
+        - DoCoMo/2.0 N702iS(c100;TB;W20H10)
+        - DoCoMo/2.0 N702iS(c100;TB;W30H15)
+        - DoCoMo/2.0 N702iS(c100;TD)
+        - DoCoMo/2.0 N702iS(c100;TJ)
+    - model: P702iD
+      series: 702i
+      ua:
+        - DoCoMo/2.0 P702iD(c100;TB;W24H12)
+        - DoCoMo/2.0 P702iD(c100;TB;W20H10)
+        - DoCoMo/2.0 P702iD(c100;TB;W30H15)
+        - DoCoMo/2.0 P702iD(c100;TD)
+        - DoCoMo/2.0 P702iD(c100;TJ)
+    - model: D702iF
+      series: 702i
+      ua:
+        - DoCoMo/2.0 D702iF(c100;TB;W23H12)
+        - DoCoMo/2.0 D702iF(c100;TB;W19H10)
+        - DoCoMo/2.0 D702iF(c100;TB;W28H15)
+        - DoCoMo/2.0 D702iF(c100;TD)
+        - DoCoMo/2.0 D702iF(c100;TJ)
+    - model: D851iWM
+      series: 851i
+      ua:
+        - DoCoMo/2.0 D851iWM(c100;TB;W23H16)
+        - DoCoMo/2.0 D851iWM(c100;TB;W19H13)
+        - DoCoMo/2.0 D851iWM(c100;TB;W28H20)
+        - DoCoMo/2.0 D851iWM(c100;TD)
+        - DoCoMo/2.0 D851iWM(c100;TJ)
+    - model: F882iES
+      series: 882i
+      ua:
+        - DoCoMo/2.0 F882iES(c100;TB;W20H08)
+        - DoCoMo/2.0 F882iES(c100;TB;W16H08)
+    - model: N601i
+      series: 601i
+      ua:
+        - DoCoMo/2.0 N601i(c100;TB;W24H12)
+        - DoCoMo/2.0 N601i(c100;TB;W20H10)
+        - DoCoMo/2.0 N601i(c100;TB;W30H15)
+    - model: D800iDS
+      series: 800i
+      ua:
+        - DoCoMo/2.0 D800iDS(c100;TB;W23H12)
+        - DoCoMo/2.0 D800iDS(c100;TB;W19H10)
+        - DoCoMo/2.0 D800iDS(c100;TB;W28H15)
+        - DoCoMo/2.0 D800iDS(c100;TD)
+        - DoCoMo/2.0 D800iDS(c100;TJ)
+    - model: P703iμ
+      series: 703i
+      ua:
+        - DoCoMo/2.0 P703imyu(c100;TB;W24H12)
+        - DoCoMo/2.0 P703imyu(c100;TB;W20H10)
+        - DoCoMo/2.0 P703imyu(c100;TB;W30H15)
+        - DoCoMo/2.0 P703imyu(c100;TD)
+        - DoCoMo/2.0 P703imyu(c100;TJ)
+    - model: F883i
+      series: 883i
+      ua:
+        - DoCoMo/2.0 F883i(c100;TB;W20H08)
+        - DoCoMo/2.0 F883i(c100;TB;W16H08)
+    - model: F883iS
+      series: 883i
+      ua:
+        - DoCoMo/2.0 F883iS(c100;TB;W20H08)
+        - DoCoMo/2.0 F883iS(c100;TB;W16H08)
+    - model: P704iμ
+      series: 704i
+      ua:
+        - DoCoMo/2.0 P704imyu(c100;TB;W20H10)
+        - DoCoMo/2.0 P704imyu(c100;TB;W24H12)
+        - DoCoMo/2.0 P704imyu(c100;TB;W30H15)
+        - DoCoMo/2.0 P704imyu(c100;TD)
+        - DoCoMo/2.0 P704imyu(c100;TJ)
+    - model: L704i
+      series: 704i
+      ua:
+        - DoCoMo/2.0 L704i(c100;TB;W24H14)
+        - DoCoMo/2.0 L704i(c100;TB;W20H11)
+        - DoCoMo/2.0 L704i(c100;TB;W30H17)
+        - DoCoMo/2.0 L704i(c100;TD)
+        - DoCoMo/2.0 L704i(c100;TJ)
+    - model: L705i
+      series: 705i
+      ua:
+        - DoCoMo/2.0 L705i(c100;TB;W16H09)
+        - DoCoMo/2.0 L705i(c100;TB;W20H11)
+        - DoCoMo/2.0 L705i(c100;TB;W24H14)
+        - DoCoMo/2.0 L705i(c100;TB;W21H11)
+        - DoCoMo/2.0 L705i(c100;TD)
+        - DoCoMo/2.0 L705i(c100;TJ)
+    - model: L705iX
+      series: 705i
+      ua:
+        - DoCoMo/2.0 L705iX(c100;TB;W24H14)
+        - DoCoMo/2.0 L705iX(c100;TB;W20H11)
+        - DoCoMo/2.0 L705iX(c100;TB;W30H17)
+        - DoCoMo/2.0 L705iX(c100;TB;W21H11)
+        - DoCoMo/2.0 L705iX(c100;TD)
+        - DoCoMo/2.0 L705iX(c100;TJ)
+    - model: L852i
+      series: 852i
+      ua:
+        - DoCoMo/2.0 L852i(c100;TB;W24H14)
+        - DoCoMo/2.0 L852i(c100;TB;W20H12)
+        - DoCoMo/2.0 L852i(c100;TB;W30H18)
+        - DoCoMo/2.0 L852i(c100;TD)
+        - DoCoMo/2.0 L852i(c100;TJ)
+    - model: L706ie
+      series: 706i
+      ua:
+        - DoCoMo/2.0 L706ie(c100;TB;W16H09)
+        - DoCoMo/2.0 L706ie(c100;TB;W20H11)
+        - DoCoMo/2.0 L706ie(c100;TB;W24H14)
+        - DoCoMo/2.0 L706ie(c100;TB;W21H11)
+        - DoCoMo/2.0 L706ie(c100;TD)
+        - DoCoMo/2.0 L706ie(c100;TJ)
+    - model: L-01A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 L01A(c100;TB;W24H17)
+        - DoCoMo/2.0 L01A(c100;TB;W20H14)
+        - DoCoMo/2.0 L01A(c100;TB;W30H21)
+        - DoCoMo/2.0 L01A(c100;TD)
+        - DoCoMo/2.0 L01A(c100;TJ)
+  version: HTML6.0
+- models:
+    - model: SH903i
+      series: 903i
+      ua:
+        - DoCoMo/2.0 SH903i(c100;TB;W24H16)
+        - DoCoMo/2.0 SH903i(c100;TB;W20H13)
+        - DoCoMo/2.0 SH903i(c100;TB;W30H20)
+        - DoCoMo/2.0 SH903i(c100;TD)
+        - DoCoMo/2.0 SH903i(c100;TJ)
+    - model: P903i
+      series: 903i
+      ua:
+        - DoCoMo/2.0 P903i(c100;TB;W24H12)
+        - DoCoMo/2.0 P903i(c100;TB;W20H10)
+        - DoCoMo/2.0 P903i(c100;TB;W30H15)
+        - DoCoMo/2.0 P903i(c100;TB;W24H10)
+        - DoCoMo/2.0 P903i(c100;TD)
+        - DoCoMo/2.0 P903i(c100;TJ)
+    - model: N903i
+      series: 903i
+      ua:
+        - DoCoMo/2.0 N903i(c100;TB;W24H12)
+        - DoCoMo/2.0 N903i(c100;TB;W20H10)
+        - DoCoMo/2.0 N903i(c100;TB;W30H15)
+        - DoCoMo/2.0 N903i(c100;TD)
+        - DoCoMo/2.0 N903i(c100;TJ)
+    - model: D903i
+      series: 903i
+      ua:
+        - DoCoMo/2.0 D903i(c100;TB;W23H16)
+        - DoCoMo/2.0 D903i(c100;TB;W19H13)
+        - DoCoMo/2.0 D903i(c100;TB;W28H20)
+        - DoCoMo/2.0 D903i(c100;TB;W24H16)
+        - DoCoMo/2.0 D903i(c100;TD)
+        - DoCoMo/2.0 D903i(c100;TJ)
+    - model: F903i
+      series: 903i
+      ua:
+        - DoCoMo/2.0 F903i(c100;TB;W23H12)
+        - DoCoMo/2.0 F903i(c100;TB;W19H10)
+        - DoCoMo/2.0 F903i(c100;TB;W28H15)
+        - DoCoMo/2.0 F903i(c100;TB;W24H12)
+        - DoCoMo/2.0 F903i(c100;TD)
+        - DoCoMo/2.0 F903i(c100;TJ)
+    - model: SO903i
+      series: 903i
+      ua:
+        - DoCoMo/2.0 SO903i(c100;TB;W24H18)
+        - DoCoMo/2.0 SO903i(c100;TB;W20H15)
+        - DoCoMo/2.0 SO903i(c100;TB;W30H23)
+        - DoCoMo/2.0 SO903i(c100;TB;W20H10)
+        - DoCoMo/2.0 SO903i(c100;TD)
+        - DoCoMo/2.0 SO903i(c100;TJ)
+    - model: D903iTV
+      series: 903i
+      ua:
+        - DoCoMo/2.0 D903iTV(c100;TB;W23H16)
+        - DoCoMo/2.0 D903iTV(c100;TB;W19H13)
+        - DoCoMo/2.0 D903iTV(c100;TB;W28H20)
+        - DoCoMo/2.0 D903iTV(c100;TB;W24H16)
+        - DoCoMo/2.0 D903iTV(c100;TD)
+        - DoCoMo/2.0 D903iTV(c100;TJ)
+    - model: F903iX
+      series: 903i
+      ua:
+        - DoCoMo/2.0 F903iX(c100;TB;W23H12)
+        - DoCoMo/2.0 F903iX(c100;TB;W19H10)
+        - DoCoMo/2.0 F903iX(c100;TB;W28H15)
+        - DoCoMo/2.0 F903iX(c100;TB;W24H12)
+        - DoCoMo/2.0 F903iX(c100;TD)
+        - DoCoMo/2.0 F903iX(c100;TJ)
+    - model: P903iTV
+      series: 903i
+      ua:
+        - DoCoMo/2.0 P903iTV(c100;TB;W24H15)
+        - DoCoMo/2.0 P903iTV(c100;TB;W20H13)
+        - DoCoMo/2.0 P903iTV(c100;TB;W30H19)
+        - DoCoMo/2.0 P903iTV(c100;TB;W24H13)
+        - DoCoMo/2.0 P903iTV(c100;TD)
+        - DoCoMo/2.0 P903iTV(c100;TJ)
+    - model: SH903iTV
+      series: 903i
+      ua:
+        - DoCoMo/2.0 SH903iTV(c100;TB;W24H16)
+        - DoCoMo/2.0 SH903iTV(c100;TB;W20H13)
+        - DoCoMo/2.0 SH903iTV(c100;TB;W30H20)
+        - DoCoMo/2.0 SH903iTV(c100;TD)
+        - DoCoMo/2.0 SH903iTV(c100;TJ)
+    - model: F903iBSC
+      series: 903i
+      ua:
+        - DoCoMo/2.0 F903iBSC(c100;TB;W23H12)
+        - DoCoMo/2.0 F903iBSC(c100;TB;W19H10)
+        - DoCoMo/2.0 F903iBSC(c100;TB;W28H15)
+        - DoCoMo/2.0 F903iBSC(c100;TB;W24H12)
+        - DoCoMo/2.0 F903iBSC(c100;TD)
+        - DoCoMo/2.0 F903iBSC(c100;TJ)
+    - model: P903iX
+      series: 903i
+      ua:
+        - DoCoMo/2.0 P903iX(c100;TB;W24H12)
+        - DoCoMo/2.0 P903iX(c100;TB;W20H10)
+        - DoCoMo/2.0 P903iX(c100;TB;W30H15)
+        - DoCoMo/2.0 P903iX(c100;TB;W24H10)
+        - DoCoMo/2.0 P903iX(c100;TD)
+        - DoCoMo/2.0 P903iX(c100;TJ)
+    - model: SO903iTV
+      series: 903i
+      ua:
+        - DoCoMo/2.0 SO903iTV(c100;TB;W24H18)
+        - DoCoMo/2.0 SO903iTV(c100;TB;W20H15)
+        - DoCoMo/2.0 SO903iTV(c100;TB;W30H23)
+        - DoCoMo/2.0 SO903iTV(c100;TB;W20H10)
+        - DoCoMo/2.0 SO903iTV(c100;TD)
+        - DoCoMo/2.0 SO903iTV(c100;TJ)
+    - model: N703iD
+      series: 703i
+      ua:
+        - DoCoMo/2.0 N703iD(c100;TB;W24H12)
+        - DoCoMo/2.0 N703iD(c100;TB;W20H10)
+        - DoCoMo/2.0 N703iD(c100;TB;W30H15)
+        - DoCoMo/2.0 N703iD(c100;TD)
+        - DoCoMo/2.0 N703iD(c100;TJ)
+    - model: F703i
+      series: 703i
+      ua:
+        - DoCoMo/2.0 F703i(c100;TB;W23H12)
+        - DoCoMo/2.0 F703i(c100;TB;W19H10)
+        - DoCoMo/2.0 F703i(c100;TB;W28H15)
+        - DoCoMo/2.0 F703i(c100;TB;W24H12)
+        - DoCoMo/2.0 F703i(c100;TD)
+        - DoCoMo/2.0 F703i(c100;TJ)
+    - model: P703i
+      series: 703i
+      ua:
+        - DoCoMo/2.0 P703i(c100;TB;W24H12)
+        - DoCoMo/2.0 P703i(c100;TB;W20H10)
+        - DoCoMo/2.0 P703i(c100;TB;W30H15)
+        - DoCoMo/2.0 P703i(c100;TB;W24H10)
+        - DoCoMo/2.0 P703i(c100;TD)
+        - DoCoMo/2.0 P703i(c100;TJ)
+    - model: D703i
+      series: 703i
+      ua:
+        - DoCoMo/2.0 D703i(c100;TB;W23H12)
+        - DoCoMo/2.0 D703i(c100;TB;W19H10)
+        - DoCoMo/2.0 D703i(c100;TB;W28H15)
+        - DoCoMo/2.0 D703i(c100;TD)
+        - DoCoMo/2.0 D703i(c100;TJ)
+    - model: SH703i
+      series: 703i
+      ua:
+        - DoCoMo/2.0 SH703i(c100;TB;W24H12)
+        - DoCoMo/2.0 SH703i(c100;TB;W20H10)
+        - DoCoMo/2.0 SH703i(c100;TB;W30H15)
+        - DoCoMo/2.0 SH703i(c100;TD)
+        - DoCoMo/2.0 SH703i(c100;TJ)
+    - model: N703iμ
+      series: 703i
+      ua:
+        - DoCoMo/2.0 N703imyu(c100;TB;W24H12)
+        - DoCoMo/2.0 N703imyu(c100;TB;W20H10)
+        - DoCoMo/2.0 N703imyu(c100;TB;W30H15)
+        - DoCoMo/2.0 N703imyu(c100;TD)
+        - DoCoMo/2.0 N703imyu(c100;TJ)
+    - model: SO703i
+      series: 703i
+      ua:
+        - DoCoMo/2.0 SO703i(c100;TB;W24H18)
+        - DoCoMo/2.0 SO703i(c100;TB;W20H15)
+        - DoCoMo/2.0 SO703i(c100;TB;W30H23)
+        - DoCoMo/2.0 SO703i(c100;TB;W20H10)
+        - DoCoMo/2.0 SO703i(c100;TD)
+        - DoCoMo/2.0 SO703i(c100;TJ)
+    - model: SH904i
+      series: 904i
+      ua:
+        - DoCoMo/2.0 SH904i(c100;TB;W24H16)
+        - DoCoMo/2.0 SH904i(c100;TB;W20H13)
+        - DoCoMo/2.0 SH904i(c100;TB;W30H20)
+        - DoCoMo/2.0 SH904i(c100;TD)
+        - DoCoMo/2.0 SH904i(c100;TJ)
+    - model: N904i
+      series: 904i
+      ua:
+        - DoCoMo/2.0 N904i(c100;TB;W24H16)
+        - DoCoMo/2.0 N904i(c100;TB;W20H13)
+        - DoCoMo/2.0 N904i(c100;TB;W30H20)
+        - DoCoMo/2.0 N904i(c100;TD)
+        - DoCoMo/2.0 N904i(c100;TJ)
+    - model: F904i
+      series: 904i
+      ua:
+        - DoCoMo/2.0 F904i(c100;TB;W24H17)
+        - DoCoMo/2.0 F904i(c100;TB;W24H12)
+        - DoCoMo/2.0 F904i(c100;TB;W20H14)
+        - DoCoMo/2.0 F904i(c100;TB;W20H10)
+        - DoCoMo/2.0 F904i(c100;TB;W30H22)
+        - DoCoMo/2.0 F904i(c100;TB;W30H15)
+        - DoCoMo/2.0 F904i(c100;TD)
+        - DoCoMo/2.0 F904i(c100;TJ)
+    - model: D904i
+      series: 904i
+      ua:
+        - DoCoMo/2.0 D904i(c100;TB;W24H12)
+        - DoCoMo/2.0 D904i(c100;TB;W20H10)
+        - DoCoMo/2.0 D904i(c100;TB;W30H15)
+        - DoCoMo/2.0 D904i(c100;TB;W24H16)
+        - DoCoMo/2.0 D904i(c100;TB;W20H13)
+        - DoCoMo/2.0 D904i(c100;TB;W30H20)
+        - DoCoMo/2.0 D904i(c100;TD)
+        - DoCoMo/2.0 D904i(c100;TJ)
+    - model: P904i
+      series: 904i
+      ua:
+        - DoCoMo/2.0 P904i(c100;TB;W24H15)
+        - DoCoMo/2.0 P904i(c100;TB;W20H13)
+        - DoCoMo/2.0 P904i(c100;TB;W30H19)
+        - DoCoMo/2.0 P904i(c100;TB;W24H13)
+        - DoCoMo/2.0 P904i(c100;TD)
+        - DoCoMo/2.0 P904i(c100;TJ)
+    - model: SO704i
+      series: 704i
+      ua:
+        - DoCoMo/2.0 SO704i(c100;TB;W24H18)
+        - DoCoMo/2.0 SO704i(c100;TB;W20H15)
+        - DoCoMo/2.0 SO704i(c100;TB;W30H23)
+        - DoCoMo/2.0 SO704i(c100;TB;W20H10)
+        - DoCoMo/2.0 SO704i(c100;TD)
+        - DoCoMo/2.0 SO704i(c100;TJ)
+    - model: F704i
+      series: 704i
+      ua:
+        - DoCoMo/2.0 F704i(c100;TB;W23H12)
+        - DoCoMo/2.0 F704i(c100;TB;W19H10)
+        - DoCoMo/2.0 F704i(c100;TB;W28H15)
+        - DoCoMo/2.0 F704i(c100;TB;W24H12)
+        - DoCoMo/2.0 F704i(c100;TD)
+        - DoCoMo/2.0 F704i(c100;TJ)
+    - model: N704iμ
+      series: 704i
+      ua:
+        - DoCoMo/2.0 N704imyu(c100;TB;W24H12)
+        - DoCoMo/2.0 N704imyu(c100;TB;W20H10)
+        - DoCoMo/2.0 N704imyu(c100;TB;W30H15)
+        - DoCoMo/2.0 N704imyu(c100;TD)
+        - DoCoMo/2.0 N704imyu(c100;TJ)
+    - model: SH704i
+      series: 704i
+      ua:
+        - DoCoMo/2.0 SH704i(c100;TB;W24H16)
+        - DoCoMo/2.0 SH704i(c100;TB;W20H13)
+        - DoCoMo/2.0 SH704i(c100;TB;W30H20)
+        - DoCoMo/2.0 SH704i(c100;TD)
+        - DoCoMo/2.0 SH704i(c100;TJ)
+    - model: D704i
+      series: 704i
+      ua:
+        - DoCoMo/2.0 D704i(c100;TB;W23H12)
+        - DoCoMo/2.0 D704i(c100;TB;W19H10)
+        - DoCoMo/2.0 D704i(c100;TB;W28H15)
+        - DoCoMo/2.0 D704i(c100;TB;W24H12)
+        - DoCoMo/2.0 D704i(c100;TD)
+        - DoCoMo/2.0 D704i(c100;TJ)
+    - model: P704i
+      series: 704i
+      ua:
+        - DoCoMo/2.0 P704i(c100;TB;W24H12)
+        - DoCoMo/2.0 P704i(c100;TB;W20H10)
+        - DoCoMo/2.0 P704i(c100;TB;W30H15)
+        - DoCoMo/2.0 P704i(c100;TB;W24H10)
+        - DoCoMo/2.0 P704i(c100;TD)
+        - DoCoMo/2.0 P704i(c100;TJ)
+    - model: F883iES
+      series: 883i
+      ua:
+        - DoCoMo/2.0 F883iES(c100;TB;W20H08)
+        - DoCoMo/2.0 F883iES(c100;TB;W16H08)
+    - model: F883iESS
+      series: 883i
+      ua:
+        - DoCoMo/2.0 F883iESS(c100;TB;W20H08)
+        - DoCoMo/2.0 F883iESS(c100;TB;W16H08)
+    - model: F801i
+      series: 801i
+      ua:
+        - DoCoMo/2.0 F801i(c100;TB;W24H17)
+        - DoCoMo/2.0 F801i(c100;TB;W20H14)
+        - DoCoMo/2.0 F801i(c100;TB;W30H22)
+        - DoCoMo/2.0 F801i(c100;TD)
+        - DoCoMo/2.0 F801i(c100;TJ)
+    - model: F705i
+      series: 705i
+      ua:
+        - DoCoMo/2.0 F705i(c100;TB;W24H17)
+        - DoCoMo/2.0 F705i(c100;TB;W20H14)
+        - DoCoMo/2.0 F705i(c100;TB;W30H22)
+        - DoCoMo/2.0 F705i(c100;TD)
+        - DoCoMo/2.0 F705i(c100;TJ)
+    - model: D705i
+      series: 705i
+      ua:
+        - DoCoMo/2.0 D705i(c100;TB;W24H16)
+        - DoCoMo/2.0 D705i(c100;TB;W20H13)
+        - DoCoMo/2.0 D705i(c100;TB;W30H20)
+        - DoCoMo/2.0 D705i(c100;TD)
+        - DoCoMo/2.0 D705i(c100;TJ)
+    - model: D705iμ
+      series: 705i
+      ua:
+        - DoCoMo/2.0 D705imyu(c100;TB;W24H12)
+        - DoCoMo/2.0 D705imyu(c100;TB;W20H10)
+        - DoCoMo/2.0 D705imyu(c100;TB;W30H15)
+        - DoCoMo/2.0 D705imyu(c100;TD)
+        - DoCoMo/2.0 D705imyu(c100;TJ)
+    - model: SH705i
+      series: 705i
+      ua:
+        - DoCoMo/2.0 SH705i(c100;TB;W24H16)
+        - DoCoMo/2.0 SH705i(c100;TB;W20H13)
+        - DoCoMo/2.0 SH705i(c100;TB;W30H20)
+        - DoCoMo/2.0 SH705i(c100;TD)
+        - DoCoMo/2.0 SH705i(c100;TJ)
+    - model: SH705iII
+      series: 705i
+      ua:
+        - DoCoMo/2.0 SH705i2(c100;TB;W20H13)
+        - DoCoMo/2.0 SH705i2(c100;TB;W24H16)
+        - DoCoMo/2.0 SH705i2(c100;TB;W30H20)
+        - DoCoMo/2.0 SH705i2(c100;TB;W24H16)
+        - DoCoMo/2.0 SH705i2(c100;TD)
+        - DoCoMo/2.0 SH705i2(c100;TJ)
+    - model: SH706ie
+      series: 706i
+      ua:
+        - DoCoMo/2.0 SH706ie(c100;TB;W20H13)
+        - DoCoMo/2.0 SH706ie(c100;TB;W24H16)
+        - DoCoMo/2.0 SH706ie(c100;TB;W30H20)
+        - DoCoMo/2.0 SH706ie(c100;TB;W24H16)
+        - DoCoMo/2.0 SH706ie(c100;TD)
+        - DoCoMo/2.0 SH706ie(c100;TJ)
+    - model: F-05A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 F05A(c100;TB;W24H17)
+        - DoCoMo/2.0 F05A(c100;TB;W20H14)
+        - DoCoMo/2.0 F05A(c100;TB;W30H22)
+        - DoCoMo/2.0 F05A(c100;TD)
+        - DoCoMo/2.0 F05A(c100;TJ)
+  version: HTML7.0
+- models:
+    - model: SH905i
+      series: 905i
+      ua:
+        - DoCoMo/2.0 SH905i(c100;TB;W24H16)
+        - DoCoMo/2.0 SH905i(c100;TB;W24H12)
+        - DoCoMo/2.0 SH905i(c100;TB;W20H13)
+        - DoCoMo/2.0 SH905i(c100;TB;W20H10)
+        - DoCoMo/2.0 SH905i(c100;TB;W30H20)
+        - DoCoMo/2.0 SH905i(c100;TB;W30H15)
+        - DoCoMo/2.0 SH905i(c100;TB;W16H10)
+        - DoCoMo/2.0 SH905i(c100;TB;W16H08)
+        - DoCoMo/2.0 SH905i(c100;TD)
+        - DoCoMo/2.0 SH905i(c100;TJ)
+    - model: D905i
+      series: 905i
+      ua:
+        - DoCoMo/2.0 D905i(c100;TB;W24H17)
+        - DoCoMo/2.0 D905i(c100;TB;W24H12)
+        - DoCoMo/2.0 D905i(c100;TB;W20H14)
+        - DoCoMo/2.0 D905i(c100;TB;W20H10)
+        - DoCoMo/2.0 D905i(c100;TB;W30H22)
+        - DoCoMo/2.0 D905i(c100;TB;W30H15)
+        - DoCoMo/2.0 D905i(c100;TB;W17H12)
+        - DoCoMo/2.0 D905i(c100;TB;W17H8)
+        - DoCoMo/2.0 D905i(c100;TB;W40H29)
+        - DoCoMo/2.0 D905i(c100;TB;W40H20)
+        - DoCoMo/2.0 D905i(c100;TD)
+        - DoCoMo/2.0 D905i(c100;TJ)
+    - model: N905i
+      series: 905i
+      ua:
+        - DoCoMo/2.0 N905i(c100;TB;W24H16)
+        - DoCoMo/2.0 N905i(c100;TB;W20H13)
+        - DoCoMo/2.0 N905i(c100;TB;W30H20)
+        - DoCoMo/2.0 N905i(c100;TB;W16H10)
+        - DoCoMo/2.0 N905i(c100;TD)
+        - DoCoMo/2.0 N905i(c100;TJ)
+    - model: P905i
+      series: 905i
+      ua:
+        - DoCoMo/2.0 P905i(c100;TB;W24H15)
+        - DoCoMo/2.0 P905i(c100;TB;W20H13)
+        - DoCoMo/2.0 P905i(c100;TB;W30H19)
+        - DoCoMo/2.0 P905i(c100;TB;W24H13)
+        - DoCoMo/2.0 P905i(c100;TD)
+        - DoCoMo/2.0 P905i(c100;TJ)
+    - model: F905i
+      series: 905i
+      ua:
+        - DoCoMo/2.0 F905i(c100;TB;W24H17)
+        - DoCoMo/2.0 F905i(c100;TB;W24H12)
+        - DoCoMo/2.0 F905i(c100;TB;W20H14)
+        - DoCoMo/2.0 F905i(c100;TB;W20H10)
+        - DoCoMo/2.0 F905i(c100;TB;W30H22)
+        - DoCoMo/2.0 F905i(c100;TB;W30H15)
+        - DoCoMo/2.0 F905i(c100;TB;W17H12)
+        - DoCoMo/2.0 F905i(c100;TB;W17H8)
+        - DoCoMo/2.0 F905i(c100;TB;W40H29)
+        - DoCoMo/2.0 F905i(c100;TB;W40H20)
+        - DoCoMo/2.0 F905i(c100;TD)
+        - DoCoMo/2.0 F905i(c100;TJ)
+    - model: SO905i
+      series: 905i
+      ua:
+        - DoCoMo/2.0 SO905i(c100;TB;W24H18)
+        - DoCoMo/2.0 SO905i(c100;TB;W20H15)
+        - DoCoMo/2.0 SO905i(c100;TB;W30H23)
+        - DoCoMo/2.0 SO905i(c100;TB;W16H12)
+        - DoCoMo/2.0 SO905i(c100;TB;W12H9)
+        - DoCoMo/2.0 SO905i(c100;TB;W20H10)
+        - DoCoMo/2.0 SO905i(c100;TD)
+        - DoCoMo/2.0 SO905i(c100;TJ)
+    - model: N905iμ
+      series: 905i
+      ua:
+        - DoCoMo/2.0 N905imyu(c100;TB;W24H16)
+        - DoCoMo/2.0 N905imyu(c100;TB;W20H13)
+        - DoCoMo/2.0 N905imyu(c100;TB;W30H20)
+        - DoCoMo/2.0 N905imyu(c100;TB;W16H10)
+        - DoCoMo/2.0 N905imyu(c100;TD)
+        - DoCoMo/2.0 N905imyu(c100;TJ)
+    - model: N905iBiz
+      series: 905i
+      ua:
+        - DoCoMo/2.0 N905iBiz(c100;TB;W24H16)
+        - DoCoMo/2.0 N905iBiz(c100;TB;W20H13)
+        - DoCoMo/2.0 N905iBiz(c100;TB;W30H20)
+        - DoCoMo/2.0 N905iBiz(c100;TB;W16H10)
+        - DoCoMo/2.0 N905iBiz(c100;TD)
+        - DoCoMo/2.0 N905iBiz(c100;TJ)
+    - model: SH905iTV
+      series: 905i
+      ua:
+        - DoCoMo/2.0 SH905iTV(c100;TB;W24H16)
+        - DoCoMo/2.0 SH905iTV(c100;TB;W24H12)
+        - DoCoMo/2.0 SH905iTV(c100;TB;W20H13)
+        - DoCoMo/2.0 SH905iTV(c100;TB;W20H10)
+        - DoCoMo/2.0 SH905iTV(c100;TB;W30H20)
+        - DoCoMo/2.0 SH905iTV(c100;TB;W30H15)
+        - DoCoMo/2.0 SH905iTV(c100;TB;W16H10)
+        - DoCoMo/2.0 SH905iTV(c100;TB;W16H08)
+        - DoCoMo/2.0 SH905iTV(c100;TD)
+        - DoCoMo/2.0 SH905iTV(c100;TJ)
+    - model: SO905iCS
+      series: 905i
+      ua:
+        - DoCoMo/2.0 SO905iCS(c100;TB;W24H18)
+        - DoCoMo/2.0 SO905iCS(c100;TB;W20H15)
+        - DoCoMo/2.0 SO905iCS(c100;TB;W30H23)
+        - DoCoMo/2.0 SO905iCS(c100;TB;W16H12)
+        - DoCoMo/2.0 SO905iCS(c100;TB;W12H9)
+        - DoCoMo/2.0 SO905iCS(c100;TB;W20H10)
+        - DoCoMo/2.0 SO905iCS(c100;TD)
+        - DoCoMo/2.0 SO905iCS(c100;TJ)
+    - model: F905iBiz
+      series: 905i
+      ua:
+        - DoCoMo/2.0 F905iBiz(c100;TB;W24H17)
+        - DoCoMo/2.0 F905iBiz(c100;TB;W24H12)
+        - DoCoMo/2.0 F905iBiz(c100;TB;W20H14)
+        - DoCoMo/2.0 F905iBiz(c100;TB;W20H10)
+        - DoCoMo/2.0 F905iBiz(c100;TB;W30H22)
+        - DoCoMo/2.0 F905iBiz(c100;TB;W30H15)
+        - DoCoMo/2.0 F905iBiz(c100;TB;W17H12)
+        - DoCoMo/2.0 F905iBiz(c100;TB;W17H8)
+        - DoCoMo/2.0 F905iBiz(c100;TB;W40H29)
+        - DoCoMo/2.0 F905iBiz(c100;TB;W40H20)
+        - DoCoMo/2.0 F905iBiz(c100;TD)
+        - DoCoMo/2.0 F905iBiz(c100;TJ)
+    - model: P905iTV
+      series: 905i
+      ua:
+        - DoCoMo/2.0 P905iTV(c100;TB;W24H15)
+        - DoCoMo/2.0 P905iTV(c100;TB;W20H13)
+        - DoCoMo/2.0 P905iTV(c100;TB;W30H19)
+        - DoCoMo/2.0 P905iTV(c100;TB;W24H13)
+        - DoCoMo/2.0 P905iTV(c100;TD)
+        - DoCoMo/2.0 P905iTV(c100;TJ)
+    - model: P705i
+      series: 705i
+      ua:
+        - DoCoMo/2.0 P705i(c100;TB;W24H15)
+        - DoCoMo/2.0 P705i(c100;TB;W20H13)
+        - DoCoMo/2.0 P705i(c100;TB;W30H19)
+        - DoCoMo/2.0 P705i(c100;TB;W16H10)
+        - DoCoMo/2.0 P705i(c100;TB;W24H13)
+        - DoCoMo/2.0 P705i(c100;TD)
+        - DoCoMo/2.0 P705i(c100;TJ)
+    - model: N705i
+      series: 705i
+      ua:
+        - DoCoMo/2.0 N705i(c100;TB;W24H16)
+        - DoCoMo/2.0 N705i(c100;TB;W20H13)
+        - DoCoMo/2.0 N705i(c100;TB;W30H20)
+        - DoCoMo/2.0 N705i(c100;TB;W16H10)
+        - DoCoMo/2.0 N705i(c100;TD)
+        - DoCoMo/2.0 N705i(c100;TJ)
+    - model: N705iμ
+      series: 705i
+      ua:
+        - DoCoMo/2.0 N705imyu(c100;TB;W24H16)
+        - DoCoMo/2.0 N705imyu(c100;TB;W20H13)
+        - DoCoMo/2.0 N705imyu(c100;TB;W30H20)
+        - DoCoMo/2.0 N705imyu(c100;TB;W16H10)
+        - DoCoMo/2.0 N705imyu(c100;TD)
+        - DoCoMo/2.0 N705imyu(c100;TJ)
+    - model: P705iμ
+      series: 705i
+      ua:
+        - DoCoMo/2.0 P705imyu(c100;TB;W24H15)
+        - DoCoMo/2.0 P705imyu(c100;TB;W20H13)
+        - DoCoMo/2.0 P705imyu(c100;TB;W30H19)
+        - DoCoMo/2.0 P705imyu(c100;TB;W16H10)
+        - DoCoMo/2.0 P705imyu(c100;TB;W24H13)
+        - DoCoMo/2.0 P705imyu(c100;TD)
+        - DoCoMo/2.0 P705imyu(c100;TJ)
+    - model: SO705i
+      series: 705i
+      ua:
+        - DoCoMo/2.0 SO705i(c100;TB;W24H16)
+        - DoCoMo/2.0 SO705i(c100;TB;W20H13)
+        - DoCoMo/2.0 SO705i(c100;TB;W30H20)
+        - DoCoMo/2.0 SO705i(c100;TB;W16H10)
+        - DoCoMo/2.0 SO705i(c100;TD)
+        - DoCoMo/2.0 SO705i(c100;TJ)
+    - model: P705iCL
+      series: 705i
+      ua:
+        - DoCoMo/2.0 P705iCL(c100;TB;W16H10)
+        - DoCoMo/2.0 P705iCL(c100;TB;W20H13)
+        - DoCoMo/2.0 P705iCL(c100;TB;W24H15)
+        - DoCoMo/2.0 P705iCL(c100;TB;W30H19)
+        - DoCoMo/2.0 P705iCL(c100;TB;W24H13)
+        - DoCoMo/2.0 P705iCL(c100;TD)
+        - DoCoMo/2.0 P705iCL(c100;TJ)
+    - model: F884i
+      series: 884i
+      ua:
+        - DoCoMo/2.0 F884i(c100;TB;W20H11)
+        - DoCoMo/2.0 F884i(c100;TB;W16H11)
+        - DoCoMo/2.0 F884i(c100;TD)
+        - DoCoMo/2.0 F884i(c100;TJ)
+    - model: F884iES
+      series: 884i
+      ua:
+        - DoCoMo/2.0 F884iES(c100;TB;W20H8)
+        - DoCoMo/2.0 F884iES(c100;TB;W16H8)
+        - DoCoMo/2.0 F884iES(c100;TD)
+        - DoCoMo/2.0 F884iES(c100;TJ)
+    - model: N906iL
+      series: 906i
+      ua:
+        - DoCoMo/2.0 N906iL(c100;TB;W24H16)
+        - DoCoMo/2.0 N906iL(c100;TB;W20H13)
+        - DoCoMo/2.0 N906iL(c100;TB;W30H20)
+        - DoCoMo/2.0 N906iL(c100;TB;W16H10)
+        - DoCoMo/2.0 N906iL(c100;TD)
+        - DoCoMo/2.0 N906iL(c100;TJ)
+    - model: N706i
+      series: 706i
+      ua:
+        - DoCoMo/2.0 N706i(c100;TB;W24H16)
+        - DoCoMo/2.0 N706i(c100;TB;W20H13)
+        - DoCoMo/2.0 N706i(c100;TB;W30H20)
+        - DoCoMo/2.0 N706i(c100;TB;W16H10)
+        - DoCoMo/2.0 N706i(c100;TD)
+        - DoCoMo/2.0 N706i(c100;TJ)
+    - model: SO706i
+      series: 706i
+      ua:
+        - DoCoMo/2.0 SO706i(c100;TB;W24H16)
+        - DoCoMo/2.0 SO706i(c100;TB;W20H13)
+        - DoCoMo/2.0 SO706i(c100;TB;W30H20)
+        - DoCoMo/2.0 SO706i(c100;TB;W16H10)
+        - DoCoMo/2.0 SO706i(c100;TD)
+        - DoCoMo/2.0 SO706i(c100;TJ)
+    - model: P706iμ
+      series: 706i
+      ua:
+        - DoCoMo/2.0 P706imyu(c100;TB;W24H15)
+        - DoCoMo/2.0 P706imyu(c100;TB;W20H13)
+        - DoCoMo/2.0 P706imyu(c100;TB;W30H19)
+        - DoCoMo/2.0 P706imyu(c100;TB;W16H10)
+        - DoCoMo/2.0 P706imyu(c100;TB;W24H13)
+        - DoCoMo/2.0 P706imyu(c100;TD)
+        - DoCoMo/2.0 P706imyu(c100;TJ)
+    - model: N706ie
+      series: 706i
+      ua:
+        - DoCoMo/2.0 N706ie(c100;TB;W20H13)
+        - DoCoMo/2.0 N706ie(c100;TB;W24H16)
+        - DoCoMo/2.0 N706ie(c100;TB;W30H20)
+        - DoCoMo/2.0 N706ie(c100;TB;W16H10)
+        - DoCoMo/2.0 N706ie(c100;TB;W24H16)
+        - DoCoMo/2.0 N706ie(c100;TD)
+        - DoCoMo/2.0 N706ie(c100;TJ)
+    - model: N706iII
+      series: 706i
+      ua:
+        - DoCoMo/2.0 N706i2(c100;TB;W24H16)
+        - DoCoMo/2.0 N706i2(c100;TB;W20H13)
+        - DoCoMo/2.0 N706i2(c100;TB;W30H20)
+        - DoCoMo/2.0 N706i2(c100;TB;W16H10)
+        - DoCoMo/2.0 N706i2(c100;TD)
+        - DoCoMo/2.0 N706i2(c100;TJ)
+    - model: N-03A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 N03A(c100;TB;W24H16)
+        - DoCoMo/2.0 N03A(c100;TB;W20H13)
+        - DoCoMo/2.0 N03A(c100;TB;W30H20)
+        - DoCoMo/2.0 N03A(c100;TB;W16H10)
+        - DoCoMo/2.0 N03A(c100;TD)
+        - DoCoMo/2.0 N03A(c100;TJ)
+  version: HTML7.1
+- models:
+    - model: P906i
+      series: 906i
+      ua:
+        - DoCoMo/2.0 P906i(c100;TB;W24H15)
+        - DoCoMo/2.0 P906i(c100;TB;W20H13)
+        - DoCoMo/2.0 P906i(c100;TB;W30H19)
+        - DoCoMo/2.0 P906i(c100;TB;W16H10)
+        - DoCoMo/2.0 P906i(c100;TB;W24H13)
+        - DoCoMo/2.0 P906i(c100;TD)
+        - DoCoMo/2.0 P906i(c100;TJ)
+    - model: SO906i
+      series: 906i
+      ua:
+        - DoCoMo/2.0 SO906i(c100;TB;W24H18)
+        - DoCoMo/2.0 SO906i(c100;TB;W20H15)
+        - DoCoMo/2.0 SO906i(c100;TB;W30H23)
+        - DoCoMo/2.0 SO906i(c100;TB;W16H12)
+        - DoCoMo/2.0 SO906i(c100;TB;W12H9)
+        - DoCoMo/2.0 SO906i(c100;TB;W20H10)
+        - DoCoMo/2.0 SO906i(c100;TD)
+        - DoCoMo/2.0 SO906i(c100;TJ)
+    - model: SH906i
+      series: 906i
+      ua:
+        - DoCoMo/2.0 SH906i(c100;TB;W24H16)
+        - DoCoMo/2.0 SH906i(c100;TB;W24H12)
+        - DoCoMo/2.0 SH906i(c100;TB;W20H13)
+        - DoCoMo/2.0 SH906i(c100;TB;W20H10)
+        - DoCoMo/2.0 SH906i(c100;TB;W30H20)
+        - DoCoMo/2.0 SH906i(c100;TB;W30H15)
+        - DoCoMo/2.0 SH906i(c100;TB;W16H10)
+        - DoCoMo/2.0 SH906i(c100;TB;W16H08)
+        - DoCoMo/2.0 SH906i(c100;TD)
+        - DoCoMo/2.0 SH906i(c100;TJ)
+    - model: N906iμ
+      series: 906i
+      ua:
+        - DoCoMo/2.0 N906imyu(c100;TB;W24H16)
+        - DoCoMo/2.0 N906imyu(c100;TB;W20H13)
+        - DoCoMo/2.0 N906imyu(c100;TB;W30H20)
+        - DoCoMo/2.0 N906imyu(c100;TB;W16H10)
+        - DoCoMo/2.0 N906imyu(c100;TD)
+        - DoCoMo/2.0 N906imyu(c100;TJ)
+    - model: F906i
+      series: 906i
+      ua:
+        - DoCoMo/2.0 F906i(c100;TB;W24H17)
+        - DoCoMo/2.0 F906i(c100;TB;W24H12)
+        - DoCoMo/2.0 F906i(c100;TB;W20H14)
+        - DoCoMo/2.0 F906i(c100;TB;W20H10)
+        - DoCoMo/2.0 F906i(c100;TB;W30H22)
+        - DoCoMo/2.0 F906i(c100;TB;W30H15)
+        - DoCoMo/2.0 F906i(c100;TB;W17H12)
+        - DoCoMo/2.0 F906i(c100;TB;W17H8)
+        - DoCoMo/2.0 F906i(c100;TB;W40H29)
+        - DoCoMo/2.0 F906i(c100;TB;W40H20)
+        - DoCoMo/2.0 F906i(c100;TD)
+        - DoCoMo/2.0 F906i(c100;TJ)
+    - model: N906i
+      series: 906i
+      ua:
+        - DoCoMo/2.0 N906i(c100;TB;W24H16)
+        - DoCoMo/2.0 N906i(c100;TB;W20H13)
+        - DoCoMo/2.0 N906i(c100;TB;W30H20)
+        - DoCoMo/2.0 N906i(c100;TB;W16H10)
+        - DoCoMo/2.0 N906i(c100;TD)
+        - DoCoMo/2.0 N906i(c100;TJ)
+    - model: SH906iTV
+      series: 906i
+      ua:
+        - DoCoMo/2.0 SH906iTV(c100;TB;W20H13)
+        - DoCoMo/2.0 SH906iTV(c100;TB;W20H10)
+        - DoCoMo/2.0 SH906iTV(c100;TB;W24H16)
+        - DoCoMo/2.0 SH906iTV(c100;TB;W24H12)
+        - DoCoMo/2.0 SH906iTV(c100;TB;W30H20)
+        - DoCoMo/2.0 SH906iTV(c100;TB;W30H15)
+        - DoCoMo/2.0 SH906iTV(c100;TB;W16H10)
+        - DoCoMo/2.0 SH906iTV(c100;TB;W16H08)
+        - DoCoMo/2.0 SH906iTV(c100;TB;W24H16)
+        - DoCoMo/2.0 SH906iTV(c100;TD)
+        - DoCoMo/2.0 SH906iTV(c100;TJ)
+    - model: F706i
+      series: 706i
+      ua:
+        - DoCoMo/2.0 F706i(c100;TB;W24H17)
+        - DoCoMo/2.0 F706i(c100;TB;W20H14)
+        - DoCoMo/2.0 F706i(c100;TB;W30H22)
+        - DoCoMo/2.0 F706i(c100;TB;W17H12)
+        - DoCoMo/2.0 F706i(c100;TD)
+        - DoCoMo/2.0 F706i(c100;TJ)
+    - model: SH706i
+      series: 706i
+      ua:
+        - DoCoMo/2.0 SH706i(c100;TB;W24H16)
+        - DoCoMo/2.0 SH706i(c100;TB;W24H12)
+        - DoCoMo/2.0 SH706i(c100;TB;W20H13)
+        - DoCoMo/2.0 SH706i(c100;TB;W20H10)
+        - DoCoMo/2.0 SH706i(c100;TB;W30H20)
+        - DoCoMo/2.0 SH706i(c100;TB;W30H15)
+        - DoCoMo/2.0 SH706i(c100;TB;W16H10)
+        - DoCoMo/2.0 SH706i(c100;TB;W16H08)
+        - DoCoMo/2.0 SH706i(c100;TD)
+        - DoCoMo/2.0 SH706i(c100;TJ)
+    - model: P706ie
+      series: 706i
+      ua:
+        - DoCoMo/2.0 P706ie(c100;TB;W20H13)
+        - DoCoMo/2.0 P706ie(c100;TB;W24H15)
+        - DoCoMo/2.0 P706ie(c100;TB;W30H19)
+        - DoCoMo/2.0 P706ie(c100;TB;W16H10)
+        - DoCoMo/2.0 P706ie(c100;TB;W24H13)
+        - DoCoMo/2.0 P706ie(c100;TD)
+        - DoCoMo/2.0 P706ie(c100;TJ)
+    - model: SH706iw
+      series: 706i
+      ua:
+        - DoCoMo/2.0 SH706iw(c100;TB;W24H16)
+        - DoCoMo/2.0 SH706iw(c100;TB;W24H12)
+        - DoCoMo/2.0 SH706iw(c100;TB;W20H13)
+        - DoCoMo/2.0 SH706iw(c100;TB;W20H10)
+        - DoCoMo/2.0 SH706iw(c100;TB;W30H20)
+        - DoCoMo/2.0 SH706iw(c100;TB;W30H15)
+        - DoCoMo/2.0 SH706iw(c100;TB;W16H10)
+        - DoCoMo/2.0 SH706iw(c100;TB;W16H08)
+        - DoCoMo/2.0 SH706iw(c100;TD)
+        - DoCoMo/2.0 SH706iw(c100;TJ)
+    - model: F-01A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 F01A(c100;TB;W24H17)
+        - DoCoMo/2.0 F01A(c100;TB;W24H12)
+        - DoCoMo/2.0 F01A(c100;TB;W20H14)
+        - DoCoMo/2.0 F01A(c100;TB;W20H10)
+        - DoCoMo/2.0 F01A(c100;TB;W30H22)
+        - DoCoMo/2.0 F01A(c100;TB;W30H15)
+        - DoCoMo/2.0 F01A(c100;TB;W17H12)
+        - DoCoMo/2.0 F01A(c100;TB;W17H8)
+        - DoCoMo/2.0 F01A(c100;TB;W40H29)
+        - DoCoMo/2.0 F01A(c100;TB;W40H20)
+        - DoCoMo/2.0 F01A(c100;SD)
+        - DoCoMo/2.0 F01A(c100;TD)
+        - DoCoMo/2.0 F01A(c100;SJ)
+        - DoCoMo/2.0 F01A(c100;TJ)
+    - model: F-02A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 F02A(c100;TB;W24H17)
+        - DoCoMo/2.0 F02A(c100;TB;W20H14)
+        - DoCoMo/2.0 F02A(c100;TB;W30H22)
+        - DoCoMo/2.0 F02A(c100;TB;W17H12)
+        - DoCoMo/2.0 F02A(c100;TB;W40H29)
+        - DoCoMo/2.0 F02A(c100;TD)
+        - DoCoMo/2.0 F02A(c100;TJ)
+    - model: F-03A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 F03A(c100;TB;W24H17)
+        - DoCoMo/2.0 F03A(c100;TB;W24H12)
+        - DoCoMo/2.0 F03A(c100;TB;W20H14)
+        - DoCoMo/2.0 F03A(c100;TB;W20H10)
+        - DoCoMo/2.0 F03A(c100;TB;W30H22)
+        - DoCoMo/2.0 F03A(c100;TB;W30H15)
+        - DoCoMo/2.0 F03A(c100;TB;W17H12)
+        - DoCoMo/2.0 F03A(c100;TB;W17H8)
+        - DoCoMo/2.0 F03A(c100;TB;W40H29)
+        - DoCoMo/2.0 F03A(c100;TB;W40H20)
+        - DoCoMo/2.0 F03A(c100;SD)
+        - DoCoMo/2.0 F03A(c100;TD)
+        - DoCoMo/2.0 F03A(c100;SJ)
+        - DoCoMo/2.0 F03A(c100;TJ)
+    - model: F-04A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 F04A(c100;TB;W24H17)
+        - DoCoMo/2.0 F04A(c100;TB;W20H14)
+        - DoCoMo/2.0 F04A(c100;TB;W30H22)
+        - DoCoMo/2.0 F04A(c100;TB;W17H12)
+        - DoCoMo/2.0 F04A(c100;TB;W40H29)
+        - DoCoMo/2.0 F04A(c100;TD)
+        - DoCoMo/2.0 F04A(c100;TJ)
+    - model: F-06A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 F06A(c100;TB;W24H17)
+        - DoCoMo/2.0 F06A(c100;TB;W24H12)
+        - DoCoMo/2.0 F06A(c100;TB;W20H14)
+        - DoCoMo/2.0 F06A(c100;TB;W20H10)
+        - DoCoMo/2.0 F06A(c100;TB;W30H22)
+        - DoCoMo/2.0 F06A(c100;TB;W30H15)
+        - DoCoMo/2.0 F06A(c100;TB;W17H12)
+        - DoCoMo/2.0 F06A(c100;TB;W17H8)
+        - DoCoMo/2.0 F06A(c100;TB;W40H29)
+        - DoCoMo/2.0 F06A(c100;TB;W40H20)
+        - DoCoMo/2.0 F06A(c100;TD)
+        - DoCoMo/2.0 F06A(c100;TJ)
+    - model: P-01A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 P01A(c100;TB;W24H15)
+        - DoCoMo/2.0 P01A(c100;TB;W20H13)
+        - DoCoMo/2.0 P01A(c100;TB;W30H19)
+        - DoCoMo/2.0 P01A(c100;TB;W16H10)
+        - DoCoMo/2.0 P01A(c100;TB;W24H13)
+        - DoCoMo/2.0 P01A(c100;SD)
+        - DoCoMo/2.0 P01A(c100;TD)
+        - DoCoMo/2.0 P01A(c100;SJ)
+        - DoCoMo/2.0 P01A(c100;TJ)
+    - model: P-02A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 P02A(c100;TB;W24H15)
+        - DoCoMo/2.0 P02A(c100;TB;W20H13)
+        - DoCoMo/2.0 P02A(c100;TB;W30H19)
+        - DoCoMo/2.0 P02A(c100;TB;W16H10)
+        - DoCoMo/2.0 P02A(c100;TB;W24H13)
+        - DoCoMo/2.0 P02A(c100;SD)
+        - DoCoMo/2.0 P02A(c100;TD)
+        - DoCoMo/2.0 P02A(c100;SJ)
+        - DoCoMo/2.0 P02A(c100;TJ)
+    - model: P-03A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 P03A(c100;TB;W24H15)
+        - DoCoMo/2.0 P03A(c100;TB;W20H13)
+        - DoCoMo/2.0 P03A(c100;TB;W30H19)
+        - DoCoMo/2.0 P03A(c100;TB;W16H10)
+        - DoCoMo/2.0 P03A(c100;TB;W24H13)
+        - DoCoMo/2.0 P03A(c100;TD)
+        - DoCoMo/2.0 P03A(c100;TJ)
+    - model: P-04A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 P04A(c100;TB;W24H15)
+        - DoCoMo/2.0 P04A(c100;TB;W20H13)
+        - DoCoMo/2.0 P04A(c100;TB;W30H19)
+        - DoCoMo/2.0 P04A(c100;TB;W16H10)
+        - DoCoMo/2.0 P04A(c100;TB;W24H13)
+        - DoCoMo/2.0 P04A(c100;TD)
+        - DoCoMo/2.0 P04A(c100;TJ)
+    - model: SH-01A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 SH01A(c100;TB;W24H16)
+        - DoCoMo/2.0 SH01A(c100;TB;W24H12)
+        - DoCoMo/2.0 SH01A(c100;TB;W20H13)
+        - DoCoMo/2.0 SH01A(c100;TB;W20H10)
+        - DoCoMo/2.0 SH01A(c100;TB;W30H20)
+        - DoCoMo/2.0 SH01A(c100;TB;W30H15)
+        - DoCoMo/2.0 SH01A(c100;TB;W16H10)
+        - DoCoMo/2.0 SH01A(c100;TB;W16H08)
+        - DoCoMo/2.0 SH01A(c100;SD)
+        - DoCoMo/2.0 SH01A(c100;TD)
+        - DoCoMo/2.0 SH01A(c100;SJ)
+        - DoCoMo/2.0 SH01A(c100;TJ)
+    - model: SH-02A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 SH02A(c100;TB;W24H16)
+        - DoCoMo/2.0 SH02A(c100;TB;W20H13)
+        - DoCoMo/2.0 SH02A(c100;TB;W30H20)
+        - DoCoMo/2.0 SH02A(c100;TB;W16H10)
+        - DoCoMo/2.0 SH02A(c100;TD)
+        - DoCoMo/2.0 SH02A(c100;TJ)
+    - model: SH-03A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 SH03A(c100;TB;W24H16)
+        - DoCoMo/2.0 SH03A(c100;TB;W24H12)
+        - DoCoMo/2.0 SH03A(c100;TB;W20H13)
+        - DoCoMo/2.0 SH03A(c100;TB;W20H10)
+        - DoCoMo/2.0 SH03A(c100;TB;W30H20)
+        - DoCoMo/2.0 SH03A(c100;TB;W30H15)
+        - DoCoMo/2.0 SH03A(c100;TB;W16H10)
+        - DoCoMo/2.0 SH03A(c100;TB;W16H08)
+        - DoCoMo/2.0 SH03A(c100;SD)
+        - DoCoMo/2.0 SH03A(c100;TD)
+        - DoCoMo/2.0 SH03A(c100;SJ)
+        - DoCoMo/2.0 SH03A(c100;TJ)
+    - model: N-01A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 N01A(c100;TB;W24H16)
+        - DoCoMo/2.0 N01A(c100;TB;W24H12)
+        - DoCoMo/2.0 N01A(c100;TB;W20H13)
+        - DoCoMo/2.0 N01A(c100;TB;W20H10)
+        - DoCoMo/2.0 N01A(c100;TB;W30H20)
+        - DoCoMo/2.0 N01A(c100;TB;W30H15)
+        - DoCoMo/2.0 N01A(c100;TB;W16H10)
+        - DoCoMo/2.0 N01A(c100;TB;W16H8)
+        - DoCoMo/2.0 N01A(c100;SD)
+        - DoCoMo/2.0 N01A(c100;TD)
+        - DoCoMo/2.0 N01A(c100;SJ)
+        - DoCoMo/2.0 N01A(c100;TJ)
+    - model: N-02A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 N02A(c100;TB;W24H16)
+        - DoCoMo/2.0 N02A(c100;TB;W20H13)
+        - DoCoMo/2.0 N02A(c100;TB;W30H20)
+        - DoCoMo/2.0 N02A(c100;TB;W16H10)
+        - DoCoMo/2.0 N02A(c100;SD)
+        - DoCoMo/2.0 N02A(c100;TD)
+        - DoCoMo/2.0 N02A(c100;SJ)
+        - DoCoMo/2.0 N02A(c100;TJ)
+    - model: N-04A
+      series: 706i
+      ua:
+        - DoCoMo/2.0 N04A(c100;TB;W24H16)
+        - DoCoMo/2.0 N04A(c100;TB;W20H13)
+        - DoCoMo/2.0 N04A(c100;TB;W30H20)
+        - DoCoMo/2.0 N04A(c100;TB;W16H10)
+        - DoCoMo/2.0 N04A(c100;SD)
+        - DoCoMo/2.0 N04A(c100;TD)
+        - DoCoMo/2.0 N04A(c100;SJ)
+        - DoCoMo/2.0 N04A(c100;TJ)
+  version: HTML7.2
+

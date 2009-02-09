@@ -1,0 +1,109 @@
+8
+
+dir
+452
+http://svn.art-code.org/public/perl/HTTP-MobileJp-UserAgent/trunk
+http://svn.art-code.org/public
+
+
+
+2009-01-29T09:33:43.877675Z
+452
+zigorou
+
+
+svn:special svn:externals svn:needs-lock
+
+docomo_ua.pl
+file
+455
+
+
+
+2009-02-06T10:38:20.000000Z
+64064a21e1ce8ff344d46eb8acaec27e
+2009-02-06T10:24:08.188882Z
+455
+zigorou
+
+t
+dir
+
+lib
+dir
+
+MANIFEST
+file
+
+
+
+
+2009-01-29T09:47:33.000000Z
+a8d1e9cc3e6177b4cf52ca1e66fba826
+2009-01-29T09:33:43.877675Z
+452
+zigorou
+
+Makefile.PL
+file
+
+
+
+
+2009-01-29T09:47:30.000000Z
+65e940a215d86585f21a48f6c44fa5ff
+2009-01-29T09:33:43.877675Z
+452
+zigorou
+
+Changes
+file
+
+
+
+
+2009-01-29T09:47:30.000000Z
+b6682e932b40e3e4df6d84e26e4586da
+2009-01-29T09:33:43.877675Z
+452
+zigorou
+
+MANIFEST.SKIP
+file
+
+
+
+
+2009-01-29T09:47:30.000000Z
+cac6cbb6f6ea42036f4f55f421576d7e
+2009-01-29T09:33:43.877675Z
+452
+zigorou
+
+xt
+dir
+
+README
+file
+453
+
+
+
+2009-01-29T10:28:43.000000Z
+5da8eebf93de7a5cbb54753b69d75296
+2009-01-29T10:58:15.167883Z
+453
+zigorou
+
+.shipit
+file
+
+
+
+
+2009-01-29T09:47:30.000000Z
+02ae76d197226feab6a04f42c662f2f7
+2009-01-29T09:33:43.877675Z
+452
+zigorou
+

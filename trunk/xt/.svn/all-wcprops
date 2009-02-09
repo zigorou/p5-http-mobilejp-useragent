@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/public/!svn/ver/452/perl/HTTP-MobileJp-UserAgent/trunk/xt
+END
+02_perlcritic.t
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/public/!svn/ver/452/perl/HTTP-MobileJp-UserAgent/trunk/xt/02_perlcritic.t
+END
+01_podspell.t
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/public/!svn/ver/452/perl/HTTP-MobileJp-UserAgent/trunk/xt/01_podspell.t
+END
+perlcriticrc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/public/!svn/ver/452/perl/HTTP-MobileJp-UserAgent/trunk/xt/perlcriticrc
+END
+03_pod.t
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/public/!svn/ver/452/perl/HTTP-MobileJp-UserAgent/trunk/xt/03_pod.t
+END
