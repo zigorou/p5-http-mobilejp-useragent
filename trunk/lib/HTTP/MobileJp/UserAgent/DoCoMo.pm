@@ -8,8 +8,6 @@ our $VERSION = '0.01';
 use base qw(Class::Accessor::Fast);
 
 use Carp::Clan;
-use Data::Dump qw(dump);
-use Perl6::Say;
 use HTTP::MobileJp::UserAgent::DoCoMo::Data;
 
 __PACKAGE__->mk_accessors(qw/
@@ -26,24 +24,32 @@ __PACKAGE__->mk_accessors(qw/
   product
   foma
   pdc
+  params
 /);
 
 our $HTML_VERSION = [];
 our $PDA_REGEX = qr#DoCoMo/1\.0/([^/]+)(?:/c(\d+))?(?:/(TB|TC|TD|TJ))?(?:/W(\d{1,2})H(\d{1,2}))?(?:/ser([\w]{11}))?#;
 our $FOMA_REGEX = qr#DoCoMo/2\.0 ([^/]+)\((?:c(\d+))?(?:;(TB|TC|TD|TJ|SD|SJ))?(?:;W(\d{1,2})H(\d{1,2}))?(?:;ser([\w]{15}))?(?:;icc(\w{20}))?\)#;
 
-use Test::More;
+sub new {
+    my ($class, $model, $opts) = @_;
+
+    $class->SUPER::new(+{
+        model => $model,
+        %$opts
+    });
+}
 
 sub from_ua {
     my ($class, $ua_str) = @_;
 
-    my $ua_params = $class->parse($ua_str);
-    my $params = $HTTP::MobileJp::UserAgent::DoCoMo::Data::MODELS{$ua_params->{model}};
+    my $ua_params  = $class->parse($ua_str);
+    my $model_info = $class->model_info($ua_params->{model});
 
-    $class->new({
+    $class->new($ua_params->{model}, +{
         %$ua_params,
-        version => $params->{version},
-        series => $params->{series},
+        version => $model_info->{version},
+        series  => $model_info->{series},
     });
 }
 
@@ -136,6 +142,25 @@ sub _fmt_by_type {
     return ($self->pdc) ?
         '/' . ( (@$stash > 0) ? join('/', @$stash) : '' )
             : '(' . join(';', @$stash) . ')';
+}
+
+##### class methods #####
+
+sub model_info {
+    my ($class, $model) = @_;
+    $MODELS{$model};
+}
+
+sub models_by_series {
+    my ($class, @series) = @_;
+    my @result = map { @$_ } @MODELS_BY_SERIES{@series};
+    wantarray ? @result : \@result;
+}
+
+sub models {
+    my ($class, $is_include_aliases) = @_;
+    $is_include_aliases ||= 0;
+    
 }
 
 1;

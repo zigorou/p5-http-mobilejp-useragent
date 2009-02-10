@@ -64,14 +64,15 @@ for my $verset (@$data) {
         $m->{version} = $version;
         $models{$m->{model}} = $m;
         $models_by_series{$m->{series}} ||= [];
-        push(@{$models_by_series{$m->{series}}}, $m);
+        push(@{$models_by_series{$m->{series}}}, $m->{model});
 
         for my $ua_str (@{$m->{ua}}) {
             my $params = HTTP::MobileJp::UserAgent::DoCoMo->parse($ua_str);
             $m->{params} ||= [];
+            $m->{alias} = undef;
 
             if ($m->{model} ne $params->{model} && !exists $models{$params->{model}}) {
-                $models{$params->{model}} = $m;
+                $models{$params->{model}} = + { %$m, alias => $m->{model}, };
             }
 
             $m->{width_format} = $params->{width_format} if ($params->{width_format});
@@ -100,20 +101,15 @@ package
 use strict;
 use warnings;
 
+use base qw(Exporter);
+
+our @EXPORT = qw(%MODELS %MODELS_BY_SERIES);
+
 our $VERSION = '[% version %]';
 our %MODELS;
 our %MODELS_BY_SERIES;
 
 [% data %]
-
-#sub model {
-#    my ($class, $model) = @_;
-#    $MODELS{$model};
-#}
-#sub series {
-#    my ($class, @series) = @_;
-#    [ @MODELS_BY_SERIES{@series} ];
-#}
 
 1;
 __END__
